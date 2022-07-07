@@ -1,0 +1,14 @@
+{
+  "name": "charts",
+  "version": "100",
+  "description": "charts developing ",
+  "main": "indexjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "highcharts": "^1010"
+  }
+}

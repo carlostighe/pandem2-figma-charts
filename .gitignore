@@ -1,0 +1,7 @@
+__pycache__
+app
+node_modules
+epi_plus_hospital_resources_model_REBUILD*
+poetry.lock
+pyproject.toml
+data
