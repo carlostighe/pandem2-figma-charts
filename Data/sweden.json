@@ -9,7 +9,7 @@
     "new_cases": 0,
     "tests_done": 11,
     "population": 10379295,
-    "testing_rate": 0105980223126908,
+    "testing_rate": 0.105980223126908,
     "positivity_rate": "0",
     "testing_data_source": "Survey"
   },
@@ -23,7 +23,7 @@
     "new_cases": 0,
     "tests_done": 26,
     "population": 10379295,
-    "testing_rate": 0250498709209055,
+    "testing_rate": 0.250498709209055,
     "positivity_rate": "0",
     "testing_data_source": "Survey"
   },
@@ -37,7 +37,7 @@
     "new_cases": 1,
     "tests_done": 78,
     "population": 10379295,
-    "testing_rate": 0751496127627166,
+    "testing_rate": 0.751496127627166,
     "positivity_rate": "128205128205128",
     "testing_data_source": "Survey"
   },
@@ -51,7 +51,7 @@
     "new_cases": 0,
     "tests_done": 38,
     "population": 10379295,
-    "testing_rate": 0366113498074773,
+    "testing_rate": 0.366113498074773,
     "positivity_rate": "0",
     "testing_data_source": "Survey"
   },
@@ -65,7 +65,7 @@
     "new_cases": 0,
     "tests_done": 27,
     "population": 10379295,
-    "testing_rate": 0260133274947865,
+    "testing_rate": 0.260133274947865,
     "positivity_rate": "0",
     "testing_data_source": "Survey"
   },

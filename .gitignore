@@ -5,3 +5,5 @@ epi_plus_hospital_resources_model_REBUILD*
 poetry.lock
 pyproject.toml
 data
+other_docs
+old_files
