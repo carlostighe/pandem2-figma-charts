@@ -7,3 +7,6 @@ pyproject.toml
 data
 other_docs
 old_files
+.cache
+.parcel-cache
+dist

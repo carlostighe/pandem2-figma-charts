@@ -2,13 +2,19 @@
   "name": "charts",
   "version": "100",
   "description": "charts developing ",
-  "main": "indexjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html -p 3000 --open",
+    "build:parcel": "parcel build ./src/index.html --public-url ./ --no-source-maps",
+    "build": "npm run clean && npm run build:parcel",
+    "clean": "rm -rf dist/*"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "highcharts": "^1010"
+    "highcharts": "^10.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
   }
 }

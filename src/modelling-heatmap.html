@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=10">
+  <link rel="stylesheet" type="text/css" href="./css/heatmap.css" />
+  <link rel="stylesheet" type="text/css" href="./css/button.css" />
+  <title>Charts</title>
+</head>
+
+<body>
+  <div class="container">
+    <a href="index.html" type="button" class="button">home</a>
+    <a href="modelling-heatmap.html" type="button" class="button">modelling-heatmap</a>
+    <a href="nurses-bar.html" type="button" class="button">nurses-bar</a>
+    <a href="nurses-area.html" type="button" class="button">nurses-area</a>
+    <a href="nurses-line.html" type="button" class="button">nurses-line</a>
+    <a href="patients-sankey.html" type="button" class="button">patients-sankey</a>
+    <a href="peak-available-radar.html" type="button" class="button">peak-available-radar</a>
+    <a href="peak-available-multi.html" type="button" class="button">peak-available-multi</a>
+    <a href="resource-heatmap.html" type="button" class="button">resource-heatmap</a>
+    <a href="resource-line.html" type="button" class="button">resource-line</a>
+  </div>
+  <div class="container">
+    <figure class="highcharts-figure">
+      <div id="users"></div>
+      <div id="wards"></div>
+      <div id="icu"></div>
+      <p class="highcharts-description">
+      </p>
+    </figure>
+  </div>
+
+
+  <script src="../node_modules/highcharts/highcharts.js"></script>
+  <script src="../node_modules/highcharts/modules/heatmap.js"></script>
+  <script src="../node_modules/highcharts/modules/exporting.js"></script>
+  <script src="../node_modules/highcharts/modules/data.js"></script>
+  <script src="../node_modules/highcharts/modules/boost-canvas.js"></script>
+  <script src="../node_modules/highcharts/modules/boost.js"></script>
+  <script src="../node_modules/highcharts/modules/accessibility.js"></script>
+  <script type="module" src="./js/modelling-heatmap.js"></script>
+</body>
+
+</html>

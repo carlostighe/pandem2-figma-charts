@@ -1,0 +1,11 @@
+.floating {
+  float: left;
+}
+
+#multi-chart {
+  width: 1400px
+}
+
+#synced {
+  clear: both;
+}
