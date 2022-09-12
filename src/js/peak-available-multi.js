@@ -48,8 +48,11 @@ const peakData = getData(data, peakKeys);
 cats.forEach((el, idx, arr) => {
   Highcharts.chart("container" + idx, {
     chart: {
-      width: 200,
-      height: 400,
+      width: 330,
+      height: 200,
+    },
+    credits: {
+      enabled: false,
     },
     title: {
       style: {

@@ -69,6 +69,7 @@ for (var i = 1; i <= 170; i++) {
 Highcharts.chart("resources", {
   chart: {
     type: "heatmap",
+    width: 680,
   },
 
   boost: {
@@ -125,11 +126,15 @@ Highcharts.chart("resources", {
       format: "{value}",
     },
   },
+  credits: {
+    enabled: false,
+  },
 
   legend: {
     align: "right",
     layout: "vertical",
     margin: 0,
+    reversed: true,
     verticalAlign: "top",
     y: 25,
     symbolHeight: 280,

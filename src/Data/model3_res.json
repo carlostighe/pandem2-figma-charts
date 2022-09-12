@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Population",
+    "category": "Inputs_data",
+    "description": "The total population for the area being simulated.",
+    "array": true,
+    "dimensions": {
+      "Region": ["NL13", "NL21", "NL22"],
+      "Age": ["Young", "Adult"]
+    },
+    "default_values": {
+      "Inputs_data.Population[NL13,Young]": 1,
+      "Inputs_data.Population[NL21,Young]": 1,
+      "Inputs_data.Population[NL22,Young]": 1,
+      "Inputs_data.Population[NL13,Adult]": 1,
+      "Inputs_data.Population[NL21,Adult]": 1,
+      "Inputs_data.Population[NL22,Adult]": 1
+    }
+  },
+  {
+    "name": "BaseContacts",
+    "category": "Inputs_data",
+    "description": null,
+    "array": true,
+    "dimensions": {
+      "Age_contactor": ["Young", "Adult"],
+      "Age_contactee": ["Young", "Adult"]
+    },
+    "default_values": {
+      "Inputs_data.BaseContacts[Young,Young]": 1,
+      "Inputs_data.BaseContacts[Young,Adult]": 2,
+      "Inputs_data.BaseContacts[Adult,Young]": 3,
+      "Inputs_data.BaseContacts[Adult,Adult]": 4
+    }
+  },
+  {
+    "name": "ClinicalFraction",
+    "category": "Inputs_Epi",
+    "description": "The fraction of people who develop symptoms, and so are detected by the surveillance system",
+    "array": true,
+    "dimensions": { "Age": ["Young", "Adult"] },
+    "default_values": {
+      "Inputs_Epi.ClinicalFraction[Young]": 0.5,
+      "Inputs_Epi.ClinicalFraction[Adult]": 0.5
+    }
+  },
+  {
+    "name": "Pathogen_Seed_Time",
+    "category": "Inputs_Epi",
+    "description": null,
+    "array": true,
+    "dimensions": {
+      "Region": ["NL13", "NL21", "NL22"],
+      "Age": ["Young", "Adult"]
+    },
+    "default_values": {
+      "Inputs_Epi.Pathogen_Seed_Time[NL13,Young]": 0,
+      "Inputs_Epi.Pathogen_Seed_Time[NL21,Young]": 0,
+      "Inputs_Epi.Pathogen_Seed_Time[NL22,Young]": 0,
+      "Inputs_Epi.Pathogen_Seed_Time[NL13,Adult]": 0,
+      "Inputs_Epi.Pathogen_Seed_Time[NL21,Adult]": 0,
+      "Inputs_Epi.Pathogen_Seed_Time[NL22,Adult]": 0
+    }
+  },
+  {
+    "name": "Infectivity",
+    "category": "Inputs_Epi",
+    "description": null,
+    "array": false,
+    "default_values": { "Inputs_Epi.Infectivity": 0.1 }
+  },
+  {
+    "name": "ALOS",
+    "category": "Inputs_Hospital",
+    "description": "The average length of stay in hospital",
+    "array": true,
+    "dimensions": { "Age": ["Young", "Adult"] },
+    "default_values": {
+      "Inputs_Hospital.ALOS[Young]": 12,
+      "Inputs_Hospital.ALOS[Adult]": 12
+    }
+  },
+  {
+    "name": "HospitalisationFraction",
+    "category": "Inputs_Hospital",
+    "description": null,
+    "array": true,
+    "dimensions": { "Age": ["Young", "Adult"] },
+    "default_values": {
+      "Inputs_Hospital.HospitalisationFraction[Young]": 0,
+      "Inputs_Hospital.HospitalisationFraction[Adult]": 0
+    }
+  },
+  {
+    "name": "HospitalBedsPer1K",
+    "category": "Inputs_Hospital",
+    "description": null,
+    "array": true,
+    "dimensions": { "Region": ["NL13", "NL21", "NL22"] },
+    "default_values": {
+      "Inputs_Hospital.HospitalBedsPer1K[NL13]": 0,
+      "Inputs_Hospital.HospitalBedsPer1K[NL21]": 0,
+      "Inputs_Hospital.HospitalBedsPer1K[NL22]": 0
+    }
+  }
+]

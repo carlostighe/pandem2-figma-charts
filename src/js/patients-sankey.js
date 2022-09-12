@@ -198,7 +198,10 @@ const sankeyData4 = [
 Highcharts.chart("container", {
   chart: {
     height: "30%", // 16:9 ratio
-    width: 1400,
+    width: 680,
+  },
+  credits: {
+    enabled: false,
   },
   title: {
     text: "Highcharts Patients Diagram",

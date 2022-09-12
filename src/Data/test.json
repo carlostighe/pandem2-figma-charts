@@ -1,0 +1,78 @@
+{
+  "UpdateCount": 0, 
+  "NextToken": "/K4Mf+aiA==", 
+"ResponseMetadata": {
+  "RequestId": "a1edb180", "HTTPStatusCode": 200, "HTTPHeaders": {"content-type": "application/x-amz-json-1.1", "date": "Sun,
+        07 Aug 2022 09: 34: 12 GMT", "x-amzn-requestid": "a1e80", "content-length": "151349", "connection": "keep-alive"
+    }, "RetryAttempts": 0
+}
+  "ResultSet": {
+    "Rows": [{
+      "Data": [{
+        "VarCharValue": "eventname"
+      }, {"VarCharValue": "eventtime"
+                },
+                {"VarCharValue": "username"
+                },
+                {"VarCharValue": "eventsource"
+                },
+                {"VarCharValue": "_col4"
+                },
+                {"VarCharValue": "_col5"
+                }
+            ]
+        },
+        {"Data": [
+                {"VarCharValue": "XXXX"
+                },
+                {"VarCharValue": "2022-03-20T15: 27: 18Z"
+                },
+                {},
+                {"VarCharValue": "XXXX"
+                },
+                {},
+                {}
+            ]
+        },
+        {"Data": [
+                {"VarCharValue": "XXXX"
+                },
+                {"VarCharValue": "2022-03-20T15: 32: 18Z"
+                },
+                {},
+                {"VarCharValue": "XXXX"
+                },
+                {},
+                {}
+            ]
+        },
+        {"Data": [
+                {"VarCharValue": "DescribeAutoScalingGroups"
+                },
+                {"VarCharValue": "2022-03-21T23: 37: 18Z"
+                },
+                {},
+                {"VarCharValue": "autoscaling.amazonaws.com"
+                },
+                {},
+                {}
+            ]
+        }
+    ], "ResultSetMetadata": {"ColumnInfo": [
+            {"CatalogName": "hive", "SchemaName": "", "TableName": "", "Name": "eventname", "Label": "eventname", "Type": "varchar", "Precision": 2147483647, "Scale": 0, "Nullable": "UNKNOWN", "CaseSensitive": true
+            },
+            {"CatalogName": "hive", "SchemaName": "", "TableName": "", "Name": "eventtime", "Label": "eventtime", "Type": "varchar", "Precision": 2147483647, "Scale": 0, "Nullable": "UNKNOWN", "CaseSensitive": true
+            },
+            {"CatalogName": "hive", "SchemaName": "", "TableName": "", "Name": "username", "Label": "username", "Type": "varchar", "Precision": 2147483647, "Scale": 0, "Nullable": "UNKNOWN", "CaseSensitive": true
+            },
+            {"CatalogName": "hive", "SchemaName": "", "TableName": "", "Name": "eventsource", "Label": "eventsource", "Type": "varchar", "Precision": 2147483647, "Scale": 0, "Nullable": "UNKNOWN", "CaseSensitive": true
+            },
+            {"CatalogName": "hive", "SchemaName": "", "TableName": "", "Name": "_col4", "Label": "_col4", "Type": "varchar", "Precision": 2147483647, "Scale": 0, "Nullable": "UNKNOWN", "CaseSensitive": true
+            },
+            {"CatalogName": "hive", "SchemaName": "", "TableName": "", "Name": "_col5", "Label": "_col5", "Type": "varchar", "Precision": 2147483647, "Scale": 0, "Nullable": "UNKNOWN", "CaseSensitive": true
+            }
+        ]
+    }
+  }, 
+
+}

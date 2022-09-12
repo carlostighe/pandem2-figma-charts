@@ -23,7 +23,7 @@ const nurseData = patientKeys.map((key) => {
         data: Object.values(data[key]).map((val) => Math.round(val)),
       };
 });
-console.log("nurseData ", nurseData[122], nurseData[123], nurseData[124]);
+console.log("nurseData ", nurseData);
 
 const xAxisNames = [];
 for (var i = 1; i <= 170; i++) {
@@ -33,11 +33,11 @@ const maxRate = data[maxAvailable][0];
 
 Highcharts.chart("container", {
   chart: {
-    type: "area",
-    width: 1400,
+    type: "vsctor",
+    width: 1000,
   },
   title: {
-    text: "Column chart with negative values",
+    text: "ICU Nurses",
   },
   xAxis: {
     categories: xAxisNames,
@@ -59,6 +59,7 @@ Highcharts.chart("container", {
     ],
   },
   legend: {
+    enabled: true,
     align: "right",
     verticalAlign: "top",
     layout: "vertical",

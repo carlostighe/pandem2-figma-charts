@@ -1,4 +1,5 @@
 import data from "../Data/outputs.json";
+console.log("data ", data);
 
 const patientKeys = [
   "Hospital.physical ICU beds available",

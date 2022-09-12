@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=10">
-  <link rel="stylesheet" type="text/css" href="./css/heatmap.css" />
-  <link rel="stylesheet" type="text/css" href="./css/button.css" />
+  <link rel="stylesheet" type="text/css" href="./css/button.css">
+  <link rel="stylesheet" type="text/css" href="./css/chart.css">
   <title>Charts</title>
 </head>
 
@@ -28,26 +28,30 @@
     <a href="resource-depletion-ward.html" type="button" class="button">resource-depletion-ward</a>
     <a href="peaks.html" type="button" class="button">peaks</a>
     <a href="peak-column-comparison.html" type="button" class="button">peak-col-comparison</a>
+
   </div>
-  <div class="container">
+  <div class="container" id="mutli-chart">
     <figure class="highcharts-figure">
-      <div id="users"></div>
-      <div id="wards"></div>
-      <div id="icu"></div>
-      <p class="highcharts-description">
-      </p>
+      <div class="row">
+        <div id="container0" class="floating"></div>
+        <div id="container1" class="floating"></div>
+        <div id="container2" class="floating"></div>
+      </div>
+      <div class="row">
+        <div id="container3" class="floating"></div>
+        <div id="container4" class="floating"></div>
+        <div id="container5" class="floating"></div>
+      </div>
     </figure>
   </div>
 
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <script type="module" src="./js/resource-depletion-ward.js"></script>
 
-  <script src="../node_modules/highcharts/highcharts.js"></script>
-  <script src="../node_modules/highcharts/modules/heatmap.js"></script>
-  <script src="../node_modules/highcharts/modules/exporting.js"></script>
-  <script src="../node_modules/highcharts/modules/data.js"></script>
-  <script src="../node_modules/highcharts/modules/boost-canvas.js"></script>
-  <script src="../node_modules/highcharts/modules/boost.js"></script>
-  <script src="../node_modules/highcharts/modules/accessibility.js"></script>
-  <script type="module" src="./js/modelling-heatmap.js"></script>
 </body>
 
 </html>

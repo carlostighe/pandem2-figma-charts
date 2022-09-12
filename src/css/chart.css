@@ -1,9 +1,14 @@
 .floating {
   float: left;
 }
+.peak-chart {
+  max-width: 1400px;
+}
 
 #multi-chart {
-  width: 1400px
+  width: 1400px;
+  margin: auto;
+  clear: both;
 }
 
 #synced {

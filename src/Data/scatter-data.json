@@ -1,0 +1,184 @@
+[
+  [
+    { "x": 81.0, "y": 81.0, "name": "Days" },
+    { "x": 90176.0, "y": 90176.0, "name": "PANDEM2 Outputs.confirmed cases" },
+    { "x": 13836.0, "y": 13836.0, "name": "Hospital.total in hospital" },
+    { "x": 3077.0, "y": 3077.0, "name": "Hospital.hospital admissions" },
+    { "x": 2096.0, "y": 2096.0, "name": "Hospital.hospital discharges" },
+    { "x": 350.0, "y": 350.0, "name": "Hospital.ICU admissions" },
+    { "x": 93.0, "y": 93.0, "name": "Hospital.ICU discharges" },
+    { "x": 161.0, "y": 161.0, "name": "Hospital.deaths in hospital" },
+    { "x": 10000.0, "y": 10000.0, "name": "Hospital Resources.Beds" },
+    {
+      "x": 8779.0,
+      "y": 8779.0,
+      "name": "Hospital Resources.occupied ward beds"
+    },
+    {
+      "x": 1221.0,
+      "y": 1221.0,
+      "name": "Hospital.physical ward beds available"
+    },
+    { "x": 1656.0, "y": 1656.0, "name": "Hospital.expected beds freed" },
+    {
+      "x": 2666.0,
+      "y": 2666.0,
+      "name": "Hospital.Patients Waiting for Ward Bed"
+    },
+    { "x": 0.0, "y": 0.0, "name": "Hospital.In Ward Overflow" },
+    { "x": 2666.0, "y": 2666.0, "name": "Hospital.physical ward beds needed" },
+    { "x": 0.0, "y": 0.0, "name": "Hospital.physical ward beds gap" },
+    {
+      "x": 2500.0,
+      "y": 2500.0,
+      "name": "Hospital Resources.max available nurses"
+    },
+    { "x": 8.0, "y": 8.0, "name": "Hospital Resources.Absent Nurses" },
+    { "x": 2492.0, "y": 2492.0, "name": "Hospital Resources.Nurses" },
+    { "x": 1756.0, "y": 1756.0, "name": "Hospital Resources.occupied nurses" },
+    { "x": 737.0, "y": 737.0, "name": "Hospital Resources.available nurses" },
+    {
+      "x": 331.0,
+      "y": 331.0,
+      "name": "Hospital Resources.expected nurses freed"
+    },
+    {
+      "x": 533.0,
+      "y": 533.0,
+      "name": "Hospital Resources.total nurses needed for incoming patients"
+    },
+    { "x": 0.0, "y": 0.0, "name": "Hospital Resources.nurses gap" },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "name": "Hospital Resources.extra staff needed for overflow patients"
+    },
+    {
+      "x": 1221.0,
+      "y": 1221.0,
+      "name": "Hospital Resources.staffed ward beds available"
+    },
+    {
+      "x": 2666.0,
+      "y": 2666.0,
+      "name": "Hospital Resources.staffed ward beds needed"
+    },
+    { "x": 0.0, "y": 0.0, "name": "Hospital Resources.staffed ward beds gap" },
+    { "x": 2666.0, "y": 2666.0, "name": "Hospital.ward admissions" },
+    { "x": 0.0, "y": 0.0, "name": "Hospital.moving to ward overflow" },
+    { "x": 4000.0, "y": 4000.0, "name": "Hospital Resources.ICU Beds" },
+    {
+      "x": 2040.0,
+      "y": 2040.0,
+      "name": "Hospital Resources.occupied ICU beds"
+    },
+    {
+      "x": 1960.0,
+      "y": 1960.0,
+      "name": "Hospital.physical ICU beds available"
+    },
+    { "x": 140.0, "y": 140.0, "name": "Hospital.expected ICU beds freed" },
+    { "x": 350.0, "y": 350.0, "name": "Hospital.Patients Waiting for ICU" },
+    { "x": 0.0, "y": 0.0, "name": "Hospital.In ICU Overflow" },
+    { "x": 350.0, "y": 350.0, "name": "Hospital.physical ICU beds needed" },
+    { "x": 0.0, "y": 0.0, "name": "Hospital.physical ICU beds gap" },
+    {
+      "x": 2000.0,
+      "y": 2000.0,
+      "name": "Hospital Resources.max available ICU nurses"
+    },
+    { "x": 6.0, "y": 6.0, "name": "Hospital Resources.Absent ICU Nurses" },
+    { "x": 1994.0, "y": 1994.0, "name": "Hospital Resources.ICU Nurses" },
+    {
+      "x": 1020.0,
+      "y": 1020.0,
+      "name": "Hospital Resources.occupied ICU nurses"
+    },
+    {
+      "x": 974.0,
+      "y": 974.0,
+      "name": "Hospital Resources.available ICU nurses"
+    },
+    {
+      "x": 70.0,
+      "y": 70.0,
+      "name": "Hospital Resources.expected ICU nurses freed"
+    },
+    {
+      "x": 175.0,
+      "y": 175.0,
+      "name": "Hospital Resources.total ICU nurses needed for incoming patients"
+    },
+    { "x": 0.0, "y": 0.0, "name": "Hospital Resources.ICU nurses gap" },
+    { "x": 2000.0, "y": 2000.0, "name": "Ventilators.ventilators in stock" },
+    { "x": 1143.0, "y": 1143.0, "name": "Ventilators.ventilators in use" },
+    { "x": 857.0, "y": 857.0, "name": "Ventilators.ventilators available" },
+    { "x": 78.0, "y": 78.0, "name": "Ventilators.expected ventilators freed" },
+    {
+      "x": 196.0,
+      "y": 196.0,
+      "name": "Ventilators.ventilators needed for incoming ICU patients"
+    },
+    { "x": 0.0, "y": 0.0, "name": "Ventilators.gap in ventilators" },
+    {
+      "x": 1671.0,
+      "y": 1671.0,
+      "name": "Hospital Resources.staffed equipped ICU beds available"
+    },
+    {
+      "x": 350.0,
+      "y": 350.0,
+      "name": "Hospital Resources.staffed equipped ICU beds needed"
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "name": "Hospital Resources.staffed equipped ICU beds gap"
+    },
+    { "x": 0.0, "y": 0.0, "name": "Hospital.moving to ICU overflow" },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "name": "Hospital.at risk of dying from lack of ICU"
+    },
+    { "x": 34695.0, "y": 34695.0, "name": "PPE.PPE" },
+    { "x": 17421.0, "y": 17421.0, "name": "PPE.PPE needed" },
+    { "x": 0.0, "y": 0.0, "name": "PPE.PPE gap" },
+    { "x": 182586.0, "y": 182586.0, "name": "PPE.total PPE used" },
+    { "x": 0.0, "y": 0.0, "name": "PPE.interrupted PPE supply" },
+    { "x": 4312.0, "y": 4312.0, "name": "Hospital.Total needed ICU" },
+    { "x": 3962.0, "y": 3962.0, "name": "Hospital.Total ICU admissions" },
+    { "x": 35324.0, "y": 35324.0, "name": "Hospital.Total needed Ward Bed" },
+    { "x": 32658.0, "y": 32658.0, "name": "Hospital.Total Ward admissions" },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "name": "Hospital.Potential deaths due to lack of ICU"
+    },
+    { "x": 1582.0, "y": 1582.0, "name": "Hospital.total deaths" },
+    { "x": 2180.0, "y": 2180.0, "name": "Hospital.peak ICU demand" },
+    { "x": 2180.0, "y": 2180.0, "name": "Hospital.peak demand ICU beds" },
+    { "x": 1090.0, "y": 1090.0, "name": "Hospital.peak demand ICU nurses" },
+    { "x": 1221.0, "y": 1221.0, "name": "Hospital.peak demand ventilators" },
+    { "x": 9213.0, "y": 9213.0, "name": "Hospital.peak ward demand" },
+    { "x": 9213.0, "y": 9213.0, "name": "Hospital.peak demand ward beds" },
+    { "x": 1843.0, "y": 1843.0, "name": "Hospital.peak demand nurses" },
+    { "x": 14662.0, "y": 14662.0, "name": "Hospital.peak demand PPE" },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "name": "Hospital Resources.activate surge strategy 1"
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "name": "Hospital Resources.activate surge strategy 2"
+    },
+    { "x": 0.0, "y": 0.0, "name": "PPE.activate surge strategy 3" },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "name": "Hospital Resources.activate surge strategy 4"
+    }
+  ]
+]
