@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=10">
-  <link rel="stylesheet" type="text/css" href="./css/index.css" />
-  <link rel="stylesheet" type="text/css" href="./css/button.css" />
+  <link rel="stylesheet" type="text/css" href="./css/button.css">
+  <link rel="stylesheet" type="text/css" href="./css/chart.css">
   <title>Charts</title>
 </head>
 
@@ -28,27 +28,26 @@
     <a href="resource-depletion-ward.html" type="button" class="button">resource-depletion-ward</a>
     <a href="peaks.html" type="button" class="button">peaks</a>
     <a href="peak-column-comparison.html" type="button" class="button">peak-col-comparison</a>
-    <a href="contact-tracing.html" type="button" class="button">contact-tracing</a>
     <a href="epi-modelling.html" type="button" class="button">epi-modelling</a>
-
   </div>
-  <div class="container">
+  <div class="container" id="multi-chart">
     <figure class="highcharts-figure">
-      <div id="users"></div>
-      <div id="incidence"></div>
-      <div id="visits"></div>
-      <p class="highcharts-description">
-      </p>
+      <div class="row">
+        <div id="cases" class="floating"></div><!--  -->
+        <div id="admissions" class="floating"></div>
+        <div id="deaths" class="floating"></div><!--  -->
+        <div id="stress_code" class="floating"></div><!--  -->
+      </div>
     </figure>
   </div>
 
 
 
-  <script src="../node_modules/highcharts/highcharts.js"></script>
-  <script src="../node_modules/highcharts/highcharts-more.js"></script>
-  <!-- <script src="./js/index.js"></script> -->
-  <!-- <script type="module" src="./js/index.js"></script> -->
-
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <script type="module" src="./js/epi-modelling.js"></script>
 
 </body>
 

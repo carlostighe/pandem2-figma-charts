@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=10">
-  <link rel="stylesheet" type="text/css" href="./css/index.css" />
   <link rel="stylesheet" type="text/css" href="./css/button.css" />
   <title>Charts</title>
 </head>
 
 <body>
   <div class="container">
-    <a href="index.html" type="button" class="button">home</a>
     <a href="modelling-heatmap.html" type="button" class="button">modelling-heatmap</a>
     <a href="nurses-bar.html" type="button" class="button">nurses-bar</a>
     <a href="nurses-area.html" type="button" class="button">nurses-area</a>
@@ -31,12 +29,13 @@
     <a href="contact-tracing.html" type="button" class="button">contact-tracing</a>
     <a href="epi-modelling.html" type="button" class="button">epi-modelling</a>
 
+
   </div>
   <div class="container">
     <figure class="highcharts-figure">
-      <div id="users"></div>
-      <div id="incidence"></div>
-      <div id="visits"></div>
+      <div id="line"></div>
+      <div id="bar"></div>
+      <div id="grouped"></div>
       <p class="highcharts-description">
       </p>
     </figure>
@@ -44,11 +43,8 @@
 
 
 
-  <script src="../node_modules/highcharts/highcharts.js"></script>
-  <script src="../node_modules/highcharts/highcharts-more.js"></script>
-  <!-- <script src="./js/index.js"></script> -->
-  <!-- <script type="module" src="./js/index.js"></script> -->
-
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script type="module" src="./js/contact-tracing.js"></script>
 
 </body>
 
