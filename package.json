@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "highcharts": "^10.1.0"
+    "highcharts": "^10.1.0",
+    "simplegrid": "^1.0.2"
   },
   "devDependencies": {
     "parcel": "^2.7.0"

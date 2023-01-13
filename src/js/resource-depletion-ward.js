@@ -1,5 +1,17 @@
 import data from "../Data/latest_outputs.json";
 
+Highcharts.setOptions({
+  colors: [
+    "#009E73",
+    "#0072B2",
+    "#D55E00",
+    "#000000",
+    "#56B4E9",
+    "#CC79A7",
+    "#F0E442",
+    "#E69F00",
+  ],
+});
 const cats = [
   "Hospital Resources.staffed ward beds available",
   "Hospital Resources.staffed ward beds needed",
@@ -28,28 +40,28 @@ const compositeResourceData = cats.map((key) => {
 });
 
 const graphs = [
+  {
+    name: "Staffed Ward Beds Available",
+    data: compositeResourceData.filter((obj) => obj.name.includes("staffed")),
+  },
   // {
-  //   name: "Staffed Ward Beds Available",
-  //   data: compositeResourceData.filter((obj) => obj.name.includes("staffed")),
+  //   name: "Physical Ward Beds",
+  //   data: compositeResourceData.filter((obj) => obj.name.includes("physical")),
   // },
-  {
-    name: "Physical Ward Beds",
-    data: compositeResourceData.filter((obj) => obj.name.includes("physical")),
-  },
-  {
-    name: "Ward Nurses",
-    data: compositeResourceData.filter((obj) =>
-      obj.name.toLowerCase().includes("nurses")
-    ),
-  },
+  // {
+  //   name: "Ward Nurses",
+  //   data: compositeResourceData.filter((obj) =>
+  //     obj.name.toLowerCase().includes("nurses")
+  //   ),
+  // },
 ];
 
 graphs.forEach((el, idx, arr) => {
   Highcharts.chart("container" + idx, {
     chart: {
       type: "area",
-      width: 330,
-      height: 400,
+      width: 660,
+      height: 200,
     },
     title: {
       style: {

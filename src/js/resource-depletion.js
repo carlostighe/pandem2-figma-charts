@@ -1,5 +1,16 @@
 import data from "../Data/latest_outputs.json";
-
+Highcharts.setOptions({
+  colors: [
+    "#009E73",
+    "#0072B2",
+    "#D55E00",
+    "#000000",
+    "#56B4E9",
+    "#CC79A7",
+    "#F0E442",
+    "#E69F00",
+  ],
+});
 const cats = [
   "Hospital Resources.staffed equipped ICU beds available",
   "Hospital Resources.staffed equipped ICU beds needed",
@@ -29,34 +40,34 @@ const compositeResourceData = cats.map((key) => {
 });
 
 const graphs = [
+  // {
+  //   name: "Staffed Equipped ICU Beds",
+  //   data: compositeResourceData.filter((obj) => obj.name.includes("equipped")),
+  // },
   {
-    name: "Staffed Equipped ICU Beds",
-    data: compositeResourceData.filter((obj) => obj.name.includes("equipped")),
+    name: "Physical ICU Beds",
+    data: compositeResourceData.filter((obj) => obj.name.includes("physical")),
   },
-  // {
-  //   name: "Physical ICU Beds",
-  //   data: compositeResourceData.filter((obj) => obj.name.includes("physical")),
-  // },
-  // {
-  //   name: "ICU Nurses",
-  //   data: compositeResourceData.filter((obj) =>
-  //     obj.name.toLowerCase().includes("nurses")
-  //   ),
-  // },
-  // {
-  //   name: "Ventilators",
-  //   data: compositeResourceData.filter((obj) =>
-  //     obj.name.includes("ventilators")
-  //   ),
-  // },
+  {
+    name: "ICU Nurses",
+    data: compositeResourceData.filter((obj) =>
+      obj.name.toLowerCase().includes("nurses")
+    ),
+  },
+  {
+    name: "Ventilators",
+    data: compositeResourceData.filter((obj) =>
+      obj.name.includes("ventilators")
+    ),
+  },
 ];
 
 graphs.forEach((el, idx, arr) => {
   Highcharts.chart("container" + idx, {
     chart: {
       type: "area",
-      width: 680,
-      height: 200,
+      width: 220,
+      height: 250,
     },
     title: {
       style: {

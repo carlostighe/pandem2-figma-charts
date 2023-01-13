@@ -1,23 +1,7 @@
-import data from "../Data/model_output_via_api_nov22.json";
+import data from "../Data/model_output_via_api_jan23.json";
 
-const caseKeys = ["actual_cases_a", "actual_cases_b", "actual_cases_c"];
-const admissionKeys = [
-  "hospital_admissions_a",
-  "hospital_admissions_b",
-  "hospital_admissions_c",
-];
-const deathKeys = [
-  "deaths_in_hospital_a",
-  "deaths_in_hospital_b",
-  "deaths_in_hospital_c",
-];
-
-const attackRateKeys = [
-  "attack_rate",
-  "attack_rate_by_age_a",
-  "attack_rate_by_age_b",
-  "attack_rate_by_age_c",
-];
+const wardDemand = "pandemic_ward_demand_factor";
+const icuDemand = "pandemic_icu_demand_factor";
 
 function getData(data, filterData) {
   let tempData = data["day_results"]
@@ -27,46 +11,22 @@ function getData(data, filterData) {
         Object.entries(days).filter(([key, val]) => filterData.includes(key))
       )
     );
-  let res = [];
-  res.push({
-    name: "total",
-    data: tempData.map((el) =>
-      Object.values(el).reduce((a, b) => Math.round(a + b), 0)
-    ),
-  });
-  filterData.forEach((key) => {
-    res.push({
-      name: key,
-      data: tempData.map((el) => Math.round(el[key])),
-    });
-  });
-  return res;
-}
-
-function getAttackRateData(data, filterData) {
-  let tempData = data["day_results"]
-    // .slice(0, 220)
-    .map((days) =>
-      Object.fromEntries(
-        Object.entries(days).filter(([key, val]) => filterData.includes(key))
-      )
-    );
-  let res = [];
-  filterData.forEach((key) => {
-    res.push({
-      name: key,
-      data: tempData.map((el) => Math.fround(el[key])),
-    });
-  });
-  return res;
+  return {
+    name: filterData,
+    data: tempData.slice(0, 170).map((el) => Math.fround(el[filterData])),
+  };
 }
 
 const graphData = {
-  cases: getData(data, caseKeys),
-  admissions: getData(data, admissionKeys),
-  deaths: getData(data, deathKeys),
-  attackRate: getAttackRateData(data, attackRateKeys),
+  wardDemand: getData(data, wardDemand),
+  icuDemand: getData(data, icuDemand),
 };
+
+const peakWardDemand = Math.max(...graphData.wardDemand.data);
+console.log("peakWardDemand ", peakWardDemand);
+
+const peakICUDemand = Math.max(...graphData.icuDemand.data);
+console.log("peakICUDemand ", peakICUDemand);
 
 const stressCode = data["day_results"]
   .slice(0, 220)
@@ -77,12 +37,15 @@ const stressCode = data["day_results"]
   .map((el) => el[1]);
 
 for (const graph in graphData) {
+  console.log("graph ", graph);
+  console.log("graphData ", graphData);
+  console.log("graphData[graph] ", graphData[graph]);
   Highcharts.chart(graph, {
     colors: ["#0072B2", "#CC79A7", "#009E73", "#D55E00"],
 
     chart: {
       height: 200,
-      width: 300,
+      width: 200,
     },
     title: {
       text: graph,
@@ -100,7 +63,12 @@ for (const graph in graphData) {
         pointWidth: 5,
       },
     },
-    series: graphData[graph],
+    series: [
+      {
+        name: graph,
+        data: graphData[graph].data,
+      },
+    ],
   });
 }
 Highcharts.chart("stress_code", {
@@ -109,7 +77,7 @@ Highcharts.chart("stress_code", {
   chart: {
     type: "column",
     height: 200,
-    width: 300,
+    width: 200,
   },
   title: {
     text: "Stress Code",

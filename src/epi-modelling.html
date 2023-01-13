@@ -5,26 +5,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=10">
+  <link rel="stylesheet" type="text/css" href="./css/simple-grid.min.css">
+  <link rel=" stylesheet" type="text/css" href="./css/chart.css">
   <link rel="stylesheet" type="text/css" href="./css/button.css">
-  <link rel="stylesheet" type="text/css" href="./css/chart.css">
   <title>Charts</title>
 </head>
 
 <body>
-  <div id="linksList"></div>
-
-  <div class="container" id="multi-chart">
-    <figure class="highcharts-figure">
+  <!-- <div class="container"> -->
+  <div class="row">
+    <div class="col-2">
+      <div id="linksList"></div>
+    </div>
+    <div class="col-10">
       <div class="row">
-        <div id="cases" class="floating"></div><!--  -->
-        <div id="admissions" class="floating"></div>
-        <div id="deaths" class="floating"></div><!--  -->
-        <div id="stress_code" class="floating"></div><!--  -->
+        <div class="col-12
+        ">
+          <figure class="highcharts-figure">
+            <div class="row">
+              <div id="cases" class="floating"></div><!--  -->
+              <div id="attackRate" class="floating"></div><!--  -->
+              <div id="deaths" class="floating"></div><!--  -->
+              <div id="admissions" class="floating"></div>
+            </div>
+
+          </figure>
+        </div>
+        <div class="col-6">
+          <figure class="highcharts-figure">
+            <div class="row">
+              <div id="cases" class="floating"></div><!--  -->
+              <div id="admissions" class="floating"></div>
+              <div class="row">
+                <div id="deaths" class="floating"></div><!--  -->
+                <div id="attackRate" class="floating"></div><!--  -->
+              </div>
+
+            </div>
+          </figure>
+        </div>
       </div>
-    </figure>
+
+      <!-- </div> -->
+    </div>
   </div>
-
-
   <script src="./links/links.js"></script>
 
   <script src="https://code.highcharts.com/highcharts.js"></script>

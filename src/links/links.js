@@ -23,17 +23,21 @@ const links = [
   { url: "peaks.html", link: "peaks" },
   { url: "peak-column-comparison.html", link: "peak-col-comparison" },
   { url: "epi-modelling.html", link: "epi-modelling" },
+  { url: "stress-indicators.html", link: "stress-indicators" },
   { url: "cases-heatmap.html", link: "cases-heatmap" },
   { url: "contact-tracing.html", link: "contact-tracing" },
 ];
 const chartLinks = document.createElement("div");
 chartLinks.className = "links";
 links.forEach((entry) => {
+  const row = document.createElement("div");
+  row.className = "row";
   const element = document.createElement("a");
   element.className = "button";
   element.innerHTML = entry.link;
   element.setAttribute("type", "button");
   element.setAttribute("href", entry.url);
-  chartLinks.appendChild(element);
+  row.appendChild(element);
+  chartLinks.appendChild(row);
 });
 document.getElementById("linksList").appendChild(chartLinks);
