@@ -1,7 +1,8 @@
 import data from "../Data/model_output_via_api_jan23.json";
 
-const wardDemand = "pandemic_ward_demand_factor";
-const icuDemand = "pandemic_icu_demand_factor";
+const wardAbsenteeism = "ward_nurse_absenteeism_rate";
+const icuAbsenteeism = "icu_nurse_absenteeism_rate";
+const totalAbsenteeism = "all_nurses_absenteeism_rate";
 
 function getData(data, filterData) {
   let tempData = data["day_results"]
@@ -18,15 +19,10 @@ function getData(data, filterData) {
 }
 
 const graphData = {
-  "Ward Demand": getData(data, wardDemand),
-  "ICU Demand": getData(data, icuDemand),
+  "Ward Nurse": getData(data, wardAbsenteeism),
+  "ICU Nurse": getData(data, icuAbsenteeism),
+  "Total Nurse": getData(data, totalAbsenteeism),
 };
-
-const peakWardDemand = Math.max(...graphData["Ward Demand"].data);
-console.log("peakWardDemand ", peakWardDemand);
-
-const peakICUDemand = Math.max(...graphData["ICU Demand"].data);
-console.log("peakICUDemand ", peakICUDemand);
 
 const stressCode = data["day_results"]
   .slice(0, 220)
@@ -71,49 +67,3 @@ for (const graph in graphData) {
     ],
   });
 }
-Highcharts.chart("stress_code", {
-  colors: ["#0072B2", "#CC79A7", "#009E73", "#D55E00"],
-
-  chart: {
-    type: "column",
-    height: 200,
-    width: 190,
-  },
-  title: {
-    text: "Stress Code",
-  },
-  yAxis: {},
-  legend: {
-    enabled: false,
-  },
-  credits: {
-    enabled: false,
-  },
-  plotOptions: {
-    series: {
-      grouping: true,
-      pointWidth: 2,
-      pointPadding: -1,
-      zones: [
-        {
-          value: 2,
-          color: "#F0E442",
-        },
-        {
-          value: 3,
-          color: "#D55E00",
-        },
-        {
-          color: "#000000",
-        },
-      ],
-      threshold: 0,
-    },
-  },
-  series: [
-    {
-      name: "Stress Code",
-      data: stressCode,
-    },
-  ],
-});

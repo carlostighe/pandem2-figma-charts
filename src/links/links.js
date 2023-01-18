@@ -24,6 +24,7 @@ const links = [
   { url: "peak-column-comparison.html", link: "peak-col-comparison" },
   { url: "epi-modelling.html", link: "epi-modelling" },
   { url: "stress-indicators.html", link: "stress-indicators" },
+  { url: "absenteeism.html", link: "absenteeism" },
   { url: "cases-heatmap.html", link: "cases-heatmap" },
   { url: "contact-tracing.html", link: "contact-tracing" },
 ];
