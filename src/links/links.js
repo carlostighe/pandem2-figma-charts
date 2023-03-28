@@ -23,10 +23,12 @@ const links = [
   { url: "peaks.html", link: "peaks" },
   { url: "peak-column-comparison.html", link: "peak-col-comparison" },
   { url: "epi-modelling.html", link: "epi-modelling" },
+  { url: "epi2.html", link: "epi2" },
   { url: "stress-indicators.html", link: "stress-indicators" },
   { url: "absenteeism.html", link: "absenteeism" },
   { url: "cases-heatmap.html", link: "cases-heatmap" },
   { url: "contact-tracing.html", link: "contact-tracing" },
+  { url: "sync-heat.html", link: "sync-heat" },
 ];
 const chartLinks = document.createElement("div");
 chartLinks.className = "links";

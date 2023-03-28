@@ -58,36 +58,30 @@ const getAllResources = (resData, proportionVals) => {
           "Hospital_resource_params.proportion_of_nurses_available_for_pandemic"
         ],
     ],
+    ["ventilators", resData[4][1]],
   ];
 };
 
 const peakData = peaks.map((key) => getMaxData(key));
-console.log("peakData ", peakData);
 const resourceData = available.map((key) => getMaxData(key));
 console.log("resourceData ", resourceData);
 const allResources = getAllResources(resourceData, proportions);
-console.log("allResources ", allResources);
 
 Highcharts.chart("container0", {
   chart: {
     type: "column",
+    width: 1000,
   },
-  title: {
-    text: "Peak Values vs Max Resources Available",
-    align: "left",
-  },
-  subtitle: {
-    text: "Comparing total resources available, resources made available for the pandemic, and peak scenario values",
-    align: "left",
-  },
+  title: false,
+
   plotOptions: {
     series: {
       grouping: false,
-      borderWidth: 0,
     },
     column: {
-      groupPadding: 0.3,
+      groupPadding: 0,
       borderWidth: 1,
+      pointWidth: 50,
     },
   },
   legend: {
@@ -109,7 +103,7 @@ Highcharts.chart("container0", {
   series: [
     {
       color: "rgb(158, 159, 163)",
-      pointPlacement: -0.2,
+      pointPlacement: -0.25,
       // linkedTo: "main",
       data: allResources,
       name: "Total Available",
@@ -140,7 +134,7 @@ Highcharts.chart("container0", {
       color: "rgb(160, 0, 0)",
       name: "Peak needs during scenario",
       id: "peak",
-      pointPlacement: 0.33,
+      pointPlacement: 0.25,
       // linkedTo: "main",
       dataSorting: {
         enabled: true,

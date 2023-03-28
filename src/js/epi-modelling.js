@@ -20,13 +20,11 @@ const attackRateKeys = [
 ];
 
 function getData(data, filterData) {
-  let tempData = data["day_results"]
-    .slice(0, 220)
-    .map((days) =>
-      Object.fromEntries(
-        Object.entries(days).filter(([key, val]) => filterData.includes(key))
-      )
-    );
+  let tempData = data["day_results"].map((days) =>
+    Object.fromEntries(
+      Object.entries(days).filter(([key, val]) => filterData.includes(key))
+    )
+  );
   let res = [];
   res.push({
     name: "total",
@@ -44,13 +42,11 @@ function getData(data, filterData) {
 }
 
 function getAttackRateData(data, filterData) {
-  let tempData = data["day_results"]
-    // .slice(0, 220)
-    .map((days) =>
-      Object.fromEntries(
-        Object.entries(days).filter(([key, val]) => filterData.includes(key))
-      )
-    );
+  let tempData = data["day_results"].map((days) =>
+    Object.fromEntries(
+      Object.entries(days).filter(([key, val]) => filterData.includes(key))
+    )
+  );
   let res = [];
   filterData.forEach((key) => {
     res.push({
@@ -66,10 +62,13 @@ const graphData = {
   admissions: getData(data, admissionKeys),
   deaths: getData(data, deathKeys),
   attackRate: getAttackRateData(data, attackRateKeys),
+  cases2: getData(data, caseKeys),
+  admissions2: getData(data, admissionKeys),
+  deaths2: getData(data, deathKeys),
+  attackRate2: getAttackRateData(data, attackRateKeys),
 };
 
 const stressCode = data["day_results"]
-  .slice(0, 220)
   .map((days) =>
     Object.entries(days).filter(([key, val]) => key === "stress_code")
   )
@@ -82,7 +81,7 @@ for (const graph in graphData) {
 
     chart: {
       height: 200,
-      width: 300,
+      width: 360,
     },
     title: {
       text: graph,
