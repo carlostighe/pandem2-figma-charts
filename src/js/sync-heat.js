@@ -35,7 +35,6 @@ Highcharts.Pointer.prototype.reset = () => undefined;
 Highcharts.Point.prototype.highlight = function (event) {
   event = this.series.chart.pointer.normalize(event);
   this.onMouseOver(); // Show the hover marker
-  this.series.chart.tooltip.refresh(this); // Show the tooltip
   this.series.chart.xAxis[0].drawCrosshair(event, this); // Show the crosshair
 };
 
@@ -93,13 +92,6 @@ Highcharts.ajax({
           events: {
             setExtremes: syncExtremes,
           },
-          labels: {
-            format: "{value} km",
-          },
-          accessibility: {
-            description: "Kilometers",
-            rangeDescription: "0km to 6.5km",
-          },
         },
         yAxis: {
           title: {
@@ -107,22 +99,7 @@ Highcharts.ajax({
           },
         },
         tooltip: {
-          positioner: function () {
-            return {
-              // right aligned
-              x: this.chart.chartWidth - this.label.width,
-              y: 10, // align to title
-            };
-          },
-          borderWidth: 0,
-          backgroundColor: "none",
-          pointFormat: "{point.y}",
-          headerFormat: "",
-          shadow: false,
-          style: {
-            fontSize: "18px",
-          },
-          valueDecimals: dataset.valueDecimals,
+          enabled: false,
         },
         series: [
           {

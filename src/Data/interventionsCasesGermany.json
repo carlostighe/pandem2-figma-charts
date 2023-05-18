@@ -1,0 +1,635 @@
+{
+  "data": [
+    {
+      "date": "2021-01-01",
+      "locations": [
+        { "code": "DE", "total": 10270, "split": [] },
+        { "code": "DE", "total": 11148, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-02",
+      "locations": [
+        { "code": "DE", "total": 10022, "split": [] },
+        { "code": "DE", "total": 8697, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-03",
+      "locations": [
+        { "code": "DE", "total": 8830, "split": [] },
+        { "code": "DE", "total": 9033, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-04",
+      "locations": [
+        { "code": "DE", "total": 14304, "split": [] },
+        { "code": "DE", "total": 12424, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-05",
+      "locations": [
+        { "code": "DE", "total": 27431, "split": [] },
+        { "code": "DE", "total": 26186, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-06",
+      "locations": [
+        { "code": "DE", "total": 27959, "split": [] },
+        { "code": "DE", "total": 26810, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-07",
+      "locations": [
+        { "code": "DE", "total": 26110, "split": [] },
+        { "code": "DE", "total": 24185, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-08",
+      "locations": [
+        { "code": "DE", "total": 24529, "split": [] },
+        { "code": "DE", "total": 23280, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-09",
+      "locations": [
+        { "code": "DE", "total": 16666, "split": [] },
+        { "code": "DE", "total": 16252, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-10",
+      "locations": [
+        { "code": "DE", "total": 8476, "split": [] },
+        { "code": "DE", "total": 9323, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-11",
+      "locations": [
+        { "code": "DE", "total": 13479, "split": [] },
+        { "code": "DE", "total": 11297, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-12",
+      "locations": [
+        { "code": "DE", "total": 22582, "split": [] },
+        { "code": "DE", "total": 21208, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-13",
+      "locations": [
+        { "code": "DE", "total": 24105, "split": [] },
+        { "code": "DE", "total": 22930, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-14",
+      "locations": [
+        { "code": "DE", "total": 20395, "split": [] },
+        { "code": "DE", "total": 19406, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-15",
+      "locations": [
+        { "code": "DE", "total": 18303, "split": [] },
+        { "code": "DE", "total": 17434, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-16",
+      "locations": [
+        { "code": "DE", "total": 13433, "split": [] },
+        { "code": "DE", "total": 13213, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-17",
+      "locations": [
+        { "code": "DE", "total": 6595, "split": [] },
+        { "code": "DE", "total": 7419, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-18",
+      "locations": [
+        { "code": "DE", "total": 9156, "split": [] },
+        { "code": "DE", "total": 7556, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-19",
+      "locations": [
+        { "code": "DE", "total": 18463, "split": [] },
+        { "code": "DE", "total": 17472, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-20",
+      "locations": [
+        { "code": "DE", "total": 19473, "split": [] },
+        { "code": "DE", "total": 18614, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-21",
+      "locations": [
+        { "code": "DE", "total": 16813, "split": [] },
+        { "code": "DE", "total": 16172, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-22",
+      "locations": [
+        { "code": "DE", "total": 15033, "split": [] },
+        { "code": "DE", "total": 14373, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-23",
+      "locations": [
+        { "code": "DE", "total": 11570, "split": [] },
+        { "code": "DE", "total": 11364, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-24",
+      "locations": [
+        { "code": "DE", "total": 5016, "split": [] },
+        { "code": "DE", "total": 5579, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-25",
+      "locations": [
+        { "code": "DE", "total": 6747, "split": [] },
+        { "code": "DE", "total": 5694, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-26",
+      "locations": [
+        { "code": "DE", "total": 15507, "split": [] },
+        { "code": "DE", "total": 14607, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-27",
+      "locations": [
+        { "code": "DE", "total": 15814, "split": [] },
+        { "code": "DE", "total": 15163, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-28",
+      "locations": [
+        { "code": "DE", "total": 13360, "split": [] },
+        { "code": "DE", "total": 12879, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-29",
+      "locations": [
+        { "code": "DE", "total": 12567, "split": [] },
+        { "code": "DE", "total": 12060, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-30",
+      "locations": [
+        { "code": "DE", "total": 9946, "split": [] },
+        { "code": "DE", "total": 9805, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-01-31",
+      "locations": [
+        { "code": "DE", "total": 4208, "split": [] },
+        { "code": "DE", "total": 4767, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-01",
+      "locations": [
+        { "code": "DE", "total": 5857, "split": [] },
+        { "code": "DE", "total": 4733, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-02",
+      "locations": [
+        { "code": "DE", "total": 12297, "split": [] },
+        { "code": "DE", "total": 11670, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-03",
+      "locations": [
+        { "code": "DE", "total": 13418, "split": [] },
+        { "code": "DE", "total": 12931, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-04",
+      "locations": [
+        { "code": "DE", "total": 11504, "split": [] },
+        { "code": "DE", "total": 11080, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-05",
+      "locations": [
+        { "code": "DE", "total": 10011, "split": [] },
+        { "code": "DE", "total": 9650, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-06",
+      "locations": [
+        { "code": "DE", "total": 8380, "split": [] },
+        { "code": "DE", "total": 8202, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-07",
+      "locations": [
+        { "code": "DE", "total": 3090, "split": [] },
+        { "code": "DE", "total": 3846, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-08",
+      "locations": [
+        { "code": "DE", "total": 4184, "split": [] },
+        { "code": "DE", "total": 3369, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-09",
+      "locations": [
+        { "code": "DE", "total": 9099, "split": [] },
+        { "code": "DE", "total": 8251, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-10",
+      "locations": [
+        { "code": "DE", "total": 10278, "split": [] },
+        { "code": "DE", "total": 9843, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-11",
+      "locations": [
+        { "code": "DE", "total": 9356, "split": [] },
+        { "code": "DE", "total": 8985, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-12",
+      "locations": [
+        { "code": "DE", "total": 8542, "split": [] },
+        { "code": "DE", "total": 8209, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "locations": [
+        { "code": "DE", "total": 5597, "split": [] },
+        { "code": "DE", "total": 5637, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-14",
+      "locations": [
+        { "code": "DE", "total": 3762, "split": [] },
+        { "code": "DE", "total": 4296, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-15",
+      "locations": [
+        { "code": "DE", "total": 4394, "split": [] },
+        { "code": "DE", "total": 3559, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-16",
+      "locations": [
+        { "code": "DE", "total": 9249, "split": [] },
+        { "code": "DE", "total": 8619, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-17",
+      "locations": [
+        { "code": "DE", "total": 10009, "split": [] },
+        { "code": "DE", "total": 9536, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-18",
+      "locations": [
+        { "code": "DE", "total": 9231, "split": [] },
+        { "code": "DE", "total": 8827, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-19",
+      "locations": [
+        { "code": "DE", "total": 8726, "split": [] },
+        { "code": "DE", "total": 8349, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-20",
+      "locations": [
+        { "code": "DE", "total": 7779, "split": [] },
+        { "code": "DE", "total": 7624, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-21",
+      "locations": [
+        { "code": "DE", "total": 3037, "split": [] },
+        { "code": "DE", "total": 3704, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-22",
+      "locations": [
+        { "code": "DE", "total": 4413, "split": [] },
+        { "code": "DE", "total": 3601, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-23",
+      "locations": [
+        { "code": "DE", "total": 10177, "split": [] },
+        { "code": "DE", "total": 9352, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-24",
+      "locations": [
+        { "code": "DE", "total": 11306, "split": [] },
+        { "code": "DE", "total": 10815, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-25",
+      "locations": [
+        { "code": "DE", "total": 9911, "split": [] },
+        { "code": "DE", "total": 9438, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-26",
+      "locations": [
+        { "code": "DE", "total": 9468, "split": [] },
+        { "code": "DE", "total": 9006, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-27",
+      "locations": [
+        { "code": "DE", "total": 7659, "split": [] },
+        { "code": "DE", "total": 7580, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-02-28",
+      "locations": [
+        { "code": "DE", "total": 3453, "split": [] },
+        { "code": "DE", "total": 4004, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-01",
+      "locations": [
+        { "code": "DE", "total": 4686, "split": [] },
+        { "code": "DE", "total": 3826, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-02",
+      "locations": [
+        { "code": "DE", "total": 10962, "split": [] },
+        { "code": "DE", "total": 10169, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-03",
+      "locations": [
+        { "code": "DE", "total": 11314, "split": [] },
+        { "code": "DE", "total": 10792, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "locations": [
+        { "code": "DE", "total": 10137, "split": [] },
+        { "code": "DE", "total": 9698, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-05",
+      "locations": [
+        { "code": "DE", "total": 9653, "split": [] },
+        { "code": "DE", "total": 9214, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-06",
+      "locations": [
+        { "code": "DE", "total": 8298, "split": [] },
+        { "code": "DE", "total": 8175, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-07",
+      "locations": [
+        { "code": "DE", "total": 3362, "split": [] },
+        { "code": "DE", "total": 3906, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-08",
+      "locations": [
+        { "code": "DE", "total": 4846, "split": [] },
+        { "code": "DE", "total": 4473, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-09",
+      "locations": [
+        { "code": "DE", "total": 11513, "split": [] },
+        { "code": "DE", "total": 10674, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-10",
+      "locations": [
+        { "code": "DE", "total": 13995, "split": [] },
+        { "code": "DE", "total": 13396, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-11",
+      "locations": [
+        { "code": "DE", "total": 13161, "split": [] },
+        { "code": "DE", "total": 12473, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-12",
+      "locations": [
+        { "code": "DE", "total": 12552, "split": [] },
+        { "code": "DE", "total": 11883, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-13",
+      "locations": [
+        { "code": "DE", "total": 10471, "split": [] },
+        { "code": "DE", "total": 10260, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-14",
+      "locations": [
+        { "code": "DE", "total": 4837, "split": [] },
+        { "code": "DE", "total": 5683, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-15",
+      "locations": [
+        { "code": "DE", "total": 6847, "split": [] },
+        { "code": "DE", "total": 5456, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-16",
+      "locations": [
+        { "code": "DE", "total": 15793, "split": [] },
+        { "code": "DE", "total": 14879, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-17",
+      "locations": [
+        { "code": "DE", "total": 18364, "split": [] },
+        { "code": "DE", "total": 17614, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-18",
+      "locations": [
+        { "code": "DE", "total": 16738, "split": [] },
+        { "code": "DE", "total": 15975, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-19",
+      "locations": [
+        { "code": "DE", "total": 15700, "split": [] },
+        { "code": "DE", "total": 15070, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-20",
+      "locations": [
+        { "code": "DE", "total": 13224, "split": [] },
+        { "code": "DE", "total": 12966, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-21",
+      "locations": [
+        { "code": "DE", "total": 5955, "split": [] },
+        { "code": "DE", "total": 6914, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-22",
+      "locations": [
+        { "code": "DE", "total": 8909, "split": [] },
+        { "code": "DE", "total": 7259, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-23",
+      "locations": [
+        { "code": "DE", "total": 19453, "split": [] },
+        { "code": "DE", "total": 18146, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-24",
+      "locations": [
+        { "code": "DE", "total": 22654, "split": [] },
+        { "code": "DE", "total": 21630, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-25",
+      "locations": [
+        { "code": "DE", "total": 21911, "split": [] },
+        { "code": "DE", "total": 20971, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-26",
+      "locations": [
+        { "code": "DE", "total": 20041, "split": [] },
+        { "code": "DE", "total": 19063, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-27",
+      "locations": [
+        { "code": "DE", "total": 15783, "split": [] },
+        { "code": "DE", "total": 15308, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-28",
+      "locations": [
+        { "code": "DE", "total": 7589, "split": [] },
+        { "code": "DE", "total": 8450, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-29",
+      "locations": [
+        { "code": "DE", "total": 10993, "split": [] },
+        { "code": "DE", "total": 9444, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-30",
+      "locations": [
+        { "code": "DE", "total": 20386, "split": [] },
+        { "code": "DE", "total": 19247, "split": [] }
+      ]
+    },
+    {
+      "date": "2021-03-31",
+      "locations": [
+        { "code": "DE", "total": 23993, "split": [] },
+        { "code": "DE", "total": 22879, "split": [] }
+      ]
+    }
+  ],
+  "metadata": {}
+}

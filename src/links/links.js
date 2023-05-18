@@ -29,6 +29,8 @@ const links = [
   { url: "cases-heatmap.html", link: "cases-heatmap" },
   { url: "contact-tracing.html", link: "contact-tracing" },
   { url: "sync-heat.html", link: "sync-heat" },
+  { url: "interventions-line.html", link: "interventions-line" },
+  { url: "interventions-sma.html", link: "interventions-sma" },
 ];
 const chartLinks = document.createElement("div");
 chartLinks.className = "links";
