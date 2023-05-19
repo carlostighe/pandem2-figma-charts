@@ -1,0 +1,1105 @@
+{
+  "data": [
+    {
+      "date": "2021-01-01",
+      "total": 46,
+      "split": [
+        { "total": 11, "split_value": "sadness" },
+        { "total": 11, "split_value": "fear" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 7, "split_value": "disgust" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 2, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-01-02",
+      "total": 42,
+      "split": [
+        { "total": 1, "split_value": "surprise" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 1, "split_value": "trust" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 9, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-01-03",
+      "total": 37,
+      "split": [
+        { "total": 7, "split_value": "sadness" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 8, "split_value": "anger" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-01-04",
+      "total": 42,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 10, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-05",
+      "total": 43,
+      "split": [
+        { "total": 1, "split_value": "surprise" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-01-06",
+      "total": 49,
+      "split": [
+        { "total": 3, "split_value": "joy" },
+        { "total": 9, "split_value": "disgust" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" }
+      ]
+    },
+    {
+      "date": "2021-01-07",
+      "total": 39,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 3, "split_value": "disgust" },
+        { "total": 1, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-01-08",
+      "total": 46,
+      "split": [
+        { "total": 7, "split_value": "disgust" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 9, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-01-09",
+      "total": 43,
+      "split": [
+        { "total": 1, "split_value": "joy" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 8, "split_value": "disgust" },
+        { "total": 10, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-01-10",
+      "total": 46,
+      "split": [
+        { "total": 9, "split_value": "fear" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 8, "split_value": "disgust" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 7, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-01-11",
+      "total": 43,
+      "split": [
+        { "total": 8, "split_value": "disgust" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 9, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-12",
+      "total": 42,
+      "split": [
+        { "total": 9, "split_value": "anger" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 1, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-01-13",
+      "total": 43,
+      "split": [
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 1, "split_value": "surprise" }
+      ]
+    },
+    {
+      "date": "2021-01-14",
+      "total": 51,
+      "split": [
+        { "total": 11, "split_value": "sadness" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 11, "split_value": "fear" },
+        { "total": 9, "split_value": "disgust" },
+        { "total": 8, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-01-15",
+      "total": 52,
+      "split": [
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 12, "split_value": "anger" },
+        { "total": 12, "split_value": "fear" },
+        { "total": 12, "split_value": "sadness" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 8, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-01-16",
+      "total": 40,
+      "split": [
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 3, "split_value": "disgust" },
+        { "total": 9, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-17",
+      "total": 40,
+      "split": [
+        { "total": 5, "split_value": "disgust" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-01-18",
+      "total": 50,
+      "split": [
+        { "total": 10, "split_value": "fear" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 7, "split_value": "disgust" },
+        { "total": 11, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-19",
+      "total": 47,
+      "split": [
+        { "total": 9, "split_value": "fear" },
+        { "total": 11, "split_value": "sadness" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-01-20",
+      "total": 45,
+      "split": [
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 9, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-21",
+      "total": 46,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 9, "split_value": "anticipation" },
+        { "total": 9, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-22",
+      "total": 42,
+      "split": [
+        { "total": 7, "split_value": "fear" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 2, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-01-23",
+      "total": 36,
+      "split": [
+        { "total": 8, "split_value": "anger" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 8, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-24",
+      "total": 31,
+      "split": [
+        { "total": 5, "split_value": "disgust" },
+        { "total": 7, "split_value": "anger" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 7, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-25",
+      "total": 37,
+      "split": [
+        { "total": 6, "split_value": "disgust" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 8, "split_value": "sadness" },
+        { "total": 7, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-01-26",
+      "total": 42,
+      "split": [
+        { "total": 9, "split_value": "fear" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 10, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-01-27",
+      "total": 49,
+      "split": [
+        { "total": 4, "split_value": "joy" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 10, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-01-28",
+      "total": 49,
+      "split": [
+        { "total": 11, "split_value": "sadness" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 7, "split_value": "disgust" },
+        { "total": 10, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-01-29",
+      "total": 44,
+      "split": [
+        { "total": 10, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-01-30",
+      "total": 45,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 9, "split_value": "anticipation" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-01-31",
+      "total": 39,
+      "split": [
+        { "total": 1, "split_value": "joy" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 9, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-02-01",
+      "total": 44,
+      "split": [
+        { "total": 8, "split_value": "anger" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 1, "split_value": "surprise" }
+      ]
+    },
+    {
+      "date": "2021-02-02",
+      "total": 45,
+      "split": [
+        { "total": 1, "split_value": "joy" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 8, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-03",
+      "total": 40,
+      "split": [
+        { "total": 9, "split_value": "sadness" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-02-04",
+      "total": 41,
+      "split": [
+        { "total": 5, "split_value": "disgust" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-05",
+      "total": 47,
+      "split": [
+        { "total": 9, "split_value": "fear" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 7, "split_value": "disgust" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 7, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-06",
+      "total": 30,
+      "split": [
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 7, "split_value": "sadness" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 3, "split_value": "disgust" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 6, "split_value": "fear" },
+        { "total": 7, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-02-07",
+      "total": 39,
+      "split": [
+        { "total": 2, "split_value": "joy" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 2, "split_value": "disgust" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 6, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-08",
+      "total": 46,
+      "split": [
+        { "total": 1, "split_value": "surprise" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 2, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-02-09",
+      "total": 46,
+      "split": [
+        { "total": 6, "split_value": "disgust" },
+        { "total": 12, "split_value": "anger" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 2, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-02-10",
+      "total": 44,
+      "split": [
+        { "total": 1, "split_value": "joy" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 2, "split_value": "surprise" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-11",
+      "total": 41,
+      "split": [
+        { "total": 9, "split_value": "fear" },
+        { "total": 8, "split_value": "sadness" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 2, "split_value": "surprise" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 7, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-02-12",
+      "total": 46,
+      "split": [
+        { "total": 11, "split_value": "anger" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 12, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 1, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "total": 34,
+      "split": [
+        { "total": 9, "split_value": "sadness" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 1, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-02-14",
+      "total": 22,
+      "split": [
+        { "total": 2, "split_value": "disgust" },
+        { "total": 7, "split_value": "anger" },
+        { "total": 6, "split_value": "sadness" },
+        { "total": 5, "split_value": "fear" },
+        { "total": 2, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-15",
+      "total": 42,
+      "split": [
+        { "total": 9, "split_value": "fear" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 11, "split_value": "sadness" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-16",
+      "total": 37,
+      "split": [
+        { "total": 6, "split_value": "disgust" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 8, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-02-17",
+      "total": 51,
+      "split": [
+        { "total": 12, "split_value": "anger" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 10, "split_value": "anticipation" },
+        { "total": 12, "split_value": "fear" },
+        { "total": 11, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-02-18",
+      "total": 38,
+      "split": [
+        { "total": 10, "split_value": "fear" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 3, "split_value": "anticipation" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-02-19",
+      "total": 40,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 9, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-02-20",
+      "total": 26,
+      "split": [
+        { "total": 6, "split_value": "sadness" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 7, "split_value": "anger" },
+        { "total": 2, "split_value": "anticipation" },
+        { "total": 6, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-02-21",
+      "total": 28,
+      "split": [
+        { "total": 1, "split_value": "surprise" },
+        { "total": 5, "split_value": "fear" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 6, "split_value": "sadness" },
+        { "total": 6, "split_value": "anger" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-22",
+      "total": 47,
+      "split": [
+        { "total": 1, "split_value": "surprise" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 3, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-02-23",
+      "total": 42,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 7, "split_value": "disgust" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-02-24",
+      "total": 40,
+      "split": [
+        { "total": 10, "split_value": "sadness" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 8, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-02-25",
+      "total": 45,
+      "split": [
+        { "total": 10, "split_value": "sadness" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 10, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-02-26",
+      "total": 44,
+      "split": [
+        { "total": 1, "split_value": "joy" },
+        { "total": 11, "split_value": "sadness" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 12, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-02-27",
+      "total": 36,
+      "split": [
+        { "total": 8, "split_value": "sadness" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 4, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-02-28",
+      "total": 36,
+      "split": [
+        { "total": 9, "split_value": "anger" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 9, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-03-01",
+      "total": 44,
+      "split": [
+        { "total": 2, "split_value": "joy" },
+        { "total": 11, "split_value": "sadness" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 11, "split_value": "fear" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 6, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-03-02",
+      "total": 44,
+      "split": [
+        { "total": 10, "split_value": "fear" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 11, "split_value": "sadness" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-03-03",
+      "total": 33,
+      "split": [
+        { "total": 7, "split_value": "fear" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 8, "split_value": "sadness" },
+        { "total": 3, "split_value": "disgust" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 3, "split_value": "anticipation" },
+        { "total": 1, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "total": 41,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 6, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-03-05",
+      "total": 35,
+      "split": [
+        { "total": 9, "split_value": "anger" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 8, "split_value": "sadness" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" }
+      ]
+    },
+    {
+      "date": "2021-03-06",
+      "total": 25,
+      "split": [
+        { "total": 6, "split_value": "sadness" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 1, "split_value": "disgust" },
+        { "total": 7, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-03-07",
+      "total": 34,
+      "split": [
+        { "total": 3, "split_value": "joy" },
+        { "total": 1, "split_value": "trust" },
+        { "total": 3, "split_value": "disgust" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 8, "split_value": "anger" },
+        { "total": 8, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-03-08",
+      "total": 39,
+      "split": [
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 2, "split_value": "disgust" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 10, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-03-09",
+      "total": 30,
+      "split": [
+        { "total": 7, "split_value": "sadness" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 3, "split_value": "anticipation" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 8, "split_value": "anger" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 3, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-03-10",
+      "total": 40,
+      "split": [
+        { "total": 10, "split_value": "sadness" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 8, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-03-11",
+      "total": 46,
+      "split": [
+        { "total": 6, "split_value": "disgust" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 11, "split_value": "sadness" },
+        { "total": 3, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-03-12",
+      "total": 30,
+      "split": [
+        { "total": 8, "split_value": "anger" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 6, "split_value": "fear" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 7, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-03-13",
+      "total": 37,
+      "split": [
+        { "total": 8, "split_value": "fear" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 8, "split_value": "sadness" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-03-14",
+      "total": 37,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-03-15",
+      "total": 41,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 3, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-03-16",
+      "total": 38,
+      "split": [
+        { "total": 3, "split_value": "anticipation" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 1, "split_value": "joy" }
+      ]
+    },
+    {
+      "date": "2021-03-17",
+      "total": 50,
+      "split": [
+        { "total": 11, "split_value": "fear" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 11, "split_value": "sadness" },
+        { "total": 12, "split_value": "anger" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 8, "split_value": "anticipation" },
+        { "total": 1, "split_value": "surprise" }
+      ]
+    },
+    {
+      "date": "2021-03-18",
+      "total": 45,
+      "split": [
+        { "total": 1, "split_value": "joy" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 7, "split_value": "disgust" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 9, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-03-19",
+      "total": 37,
+      "split": [
+        { "total": 10, "split_value": "sadness" },
+        { "total": 4, "split_value": "anticipation" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 7, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-03-20",
+      "total": 35,
+      "split": [
+        { "total": 4, "split_value": "disgust" },
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 8, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-03-21",
+      "total": 29,
+      "split": [
+        { "total": 2, "split_value": "disgust" },
+        { "total": 2, "split_value": "joy" },
+        { "total": 7, "split_value": "fear" },
+        { "total": 3, "split_value": "anticipation" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 7, "split_value": "sadness" },
+        { "total": 7, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-03-22",
+      "total": 35,
+      "split": [
+        { "total": 8, "split_value": "sadness" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 7, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-03-23",
+      "total": 37,
+      "split": [
+        { "total": 5, "split_value": "anticipation" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 10, "split_value": "anger" },
+        { "total": 9, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-03-24",
+      "total": 35,
+      "split": [
+        { "total": 9, "split_value": "fear" },
+        { "total": 9, "split_value": "anger" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 9, "split_value": "sadness" },
+        { "total": 4, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-03-25",
+      "total": 40,
+      "split": [
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 8, "split_value": "sadness" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 5, "split_value": "disgust" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 10, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-03-26",
+      "total": 40,
+      "split": [
+        { "total": 9, "split_value": "sadness" },
+        { "total": 10, "split_value": "fear" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 10, "split_value": "anger" }
+      ]
+    },
+    {
+      "date": "2021-03-27",
+      "total": 29,
+      "split": [
+        { "total": 6, "split_value": "fear" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 7, "split_value": "anger" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 3, "split_value": "anticipation" },
+        { "total": 7, "split_value": "sadness" }
+      ]
+    },
+    {
+      "date": "2021-03-28",
+      "total": 37,
+      "split": [
+        { "total": 10, "split_value": "anger" },
+        { "total": 1, "split_value": "surprise" },
+        { "total": 3, "split_value": "disgust" },
+        { "total": 6, "split_value": "anticipation" },
+        { "total": 3, "split_value": "joy" },
+        { "total": 7, "split_value": "sadness" },
+        { "total": 7, "split_value": "fear" }
+      ]
+    },
+    {
+      "date": "2021-03-29",
+      "total": 40,
+      "split": [
+        { "total": 11, "split_value": "anger" },
+        { "total": 4, "split_value": "disgust" },
+        { "total": 10, "split_value": "sadness" },
+        { "total": 8, "split_value": "fear" },
+        { "total": 7, "split_value": "anticipation" }
+      ]
+    },
+    {
+      "date": "2021-03-30",
+      "total": 36,
+      "split": [
+        { "total": 1, "split_value": "trust" },
+        { "total": 8, "split_value": "sadness" },
+        { "total": 8, "split_value": "anger" },
+        { "total": 7, "split_value": "anticipation" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 6, "split_value": "fear" },
+        { "total": 5, "split_value": "disgust" }
+      ]
+    },
+    {
+      "date": "2021-03-31",
+      "total": 42,
+      "split": [
+        { "total": 10, "split_value": "sadness" },
+        { "total": 9, "split_value": "fear" },
+        { "total": 1, "split_value": "joy" },
+        { "total": 11, "split_value": "anger" },
+        { "total": 6, "split_value": "disgust" },
+        { "total": 5, "split_value": "anticipation" }
+      ]
+    }
+  ],
+  "metadata": {
+    "sources": [
+      {
+        "_id": "63bc33af22023f3fc7479ced",
+        "name": "Twitter datasets",
+        "date": "2023-02-13T07:40:58.050Z"
+      }
+    ]
+  }
+}

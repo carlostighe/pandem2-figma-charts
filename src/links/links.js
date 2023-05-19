@@ -31,6 +31,7 @@ const links = [
   { url: "sync-heat.html", link: "sync-heat" },
   { url: "interventions-line.html", link: "interventions-line" },
   { url: "interventions-sma.html", link: "interventions-sma" },
+  { url: "sma-graphs.html", link: "sma-graphs" },
 ];
 const chartLinks = document.createElement("div");
 chartLinks.className = "links";

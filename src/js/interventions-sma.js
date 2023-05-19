@@ -25,28 +25,28 @@ Highcharts.chart("interventions", {
       pointWidth: 20,
       data: [
         {
-          x: Date.UTC(2021, 00, 01),
-          x2: Date.UTC(2021, 02, 29),
+          x: Date.parse("2021-00-01"),
+          x2: Date.parse("2021-02-29"),
           y: 0,
         },
         {
-          x: Date.UTC(2021, 01, 2),
-          x2: Date.UTC(2021, 02, 5),
+          x: Date.parse("2021-01-2"),
+          x2: Date.parse("2021-02-5"),
           y: 1,
         },
         {
-          x: Date.UTC(2021, 01, 05),
-          x2: Date.UTC(2021, 01, 19),
+          x: Date.parse("2021-01-05"),
+          x2: Date.parse("2021-01-19"),
           y: 2,
         },
         {
-          x: Date.UTC(2021, 00, 01),
-          x2: Date.UTC(2021, 00, 20),
+          x: Date.parse("2021-00-01"),
+          x2: Date.parse("2021-00-20"),
           y: 1,
         },
         {
-          x: Date.UTC(2021, 02, 01),
-          x2: Date.UTC(2021, 02, 23),
+          x: Date.parse("2021-02-01"),
+          x2: Date.parse("2021-02-23"),
           y: 2,
         },
       ],

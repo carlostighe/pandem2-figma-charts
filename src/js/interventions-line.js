@@ -6,6 +6,7 @@ const confirmedCases = {
   type: "spline",
   data: data.data.map((cases) => [Date.parse(cases.date), cases.total]),
 };
+console.log("confirmedCases ", confirmedCases);
 
 const arrayOfVals = confirmedCases.data.map((data) => data[1]);
 const graphMax = Math.max(...arrayOfVals);

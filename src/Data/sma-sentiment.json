@@ -1,0 +1,782 @@
+{
+  "data": [
+    {
+      "date": "2021-01-01",
+      "total": 18,
+      "split": [
+        { "total": 7, "split_value": "neutral" },
+        { "total": 2, "split_value": "positive" },
+        { "total": 9, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-02",
+      "total": 15,
+      "split": [
+        { "total": 6, "split_value": "negative" },
+        { "total": 2, "split_value": "positive" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-03",
+      "total": 15,
+      "split": [
+        { "total": 6, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-01-04",
+      "total": 16,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 7, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-05",
+      "total": 16,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-06",
+      "total": 17,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 9, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-07",
+      "total": 17,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-08",
+      "total": 19,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 10, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-09",
+      "total": 15,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-10",
+      "total": 17,
+      "split": [
+        { "total": 9, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-11",
+      "total": 16,
+      "split": [
+        { "total": 9, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-12",
+      "total": 15,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-13",
+      "total": 15,
+      "split": [
+        { "total": 7, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-14",
+      "total": 16,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-01-15",
+      "total": 20,
+      "split": [
+        { "total": 10, "split_value": "neutral" },
+        { "total": 9, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-01-16",
+      "total": 15,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 4, "split_value": "negative" },
+        { "total": 10, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-17",
+      "total": 17,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 8, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-18",
+      "total": 16,
+      "split": [
+        { "total": 9, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-19",
+      "total": 18,
+      "split": [
+        { "total": 2, "split_value": "positive" },
+        { "total": 7, "split_value": "negative" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-20",
+      "total": 18,
+      "split": [
+        { "total": 9, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 2, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-01-21",
+      "total": 18,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 9, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-22",
+      "total": 16,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-23",
+      "total": 14,
+      "split": [
+        { "total": 6, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-01-24",
+      "total": 14,
+      "split": [
+        { "total": 6, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-25",
+      "total": 16,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 6, "split_value": "negative" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-01-26",
+      "total": 13,
+      "split": [
+        { "total": 6, "split_value": "neutral" },
+        { "total": 6, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-01-27",
+      "total": 18,
+      "split": [
+        { "total": 10, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-28",
+      "total": 18,
+      "split": [
+        { "total": 10, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-29",
+      "total": 18,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 9, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-01-30",
+      "total": 19,
+      "split": [
+        { "total": 11, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-01-31",
+      "total": 15,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 7, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-01",
+      "total": 17,
+      "split": [
+        { "total": 3, "split_value": "positive" },
+        { "total": 8, "split_value": "negative" },
+        { "total": 6, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-02",
+      "total": 16,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-02-03",
+      "total": 12,
+      "split": [
+        { "total": 4, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-04",
+      "total": 15,
+      "split": [
+        { "total": 6, "split_value": "negative" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-05",
+      "total": 14,
+      "split": [
+        { "total": 5, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-02-06",
+      "total": 13,
+      "split": [
+        { "total": 7, "split_value": "neutral" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-02-07",
+      "total": 12,
+      "split": [
+        { "total": 6, "split_value": "neutral" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-02-08",
+      "total": 17,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-09",
+      "total": 19,
+      "split": [
+        { "total": 9, "split_value": "negative" },
+        { "total": 10, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-10",
+      "total": 16,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-11",
+      "total": 15,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-12",
+      "total": 19,
+      "split": [
+        { "total": 2, "split_value": "positive" },
+        { "total": 10, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "total": 12,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 3, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-02-14",
+      "total": 9,
+      "split": [
+        { "total": 5, "split_value": "neutral" },
+        { "total": 4, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-02-15",
+      "total": 13,
+      "split": [
+        { "total": 4, "split_value": "negative" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-16",
+      "total": 15,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 6, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-17",
+      "total": 16,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-02-18",
+      "total": 15,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 8, "split_value": "negative" },
+        { "total": 6, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-19",
+      "total": 15,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-02-20",
+      "total": 9,
+      "split": [
+        { "total": 3, "split_value": "neutral" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-02-21",
+      "total": 10,
+      "split": [
+        { "total": 5, "split_value": "negative" },
+        { "total": 5, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-22",
+      "total": 17,
+      "split": [
+        { "total": 9, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-02-23",
+      "total": 15,
+      "split": [
+        { "total": 10, "split_value": "negative" },
+        { "total": 5, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-24",
+      "total": 16,
+      "split": [
+        { "total": 9, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-02-25",
+      "total": 19,
+      "split": [
+        { "total": 10, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" },
+        { "total": 2, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-02-26",
+      "total": 18,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 10, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-27",
+      "total": 16,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-02-28",
+      "total": 13,
+      "split": [
+        { "total": 4, "split_value": "negative" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-01",
+      "total": 18,
+      "split": [
+        { "total": 8, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-02",
+      "total": 16,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 2, "split_value": "positive" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-03",
+      "total": 16,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "total": 15,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-05",
+      "total": 14,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 5, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-03-06",
+      "total": 12,
+      "split": [
+        { "total": 7, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 4, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-07",
+      "total": 12,
+      "split": [
+        { "total": 5, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-08",
+      "total": 14,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-09",
+      "total": 13,
+      "split": [
+        { "total": 4, "split_value": "negative" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-10",
+      "total": 14,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 6, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-03-11",
+      "total": 15,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-12",
+      "total": 13,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 3, "split_value": "negative" },
+        { "total": 9, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-13",
+      "total": 13,
+      "split": [
+        { "total": 6, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-14",
+      "total": 17,
+      "split": [
+        { "total": 9, "split_value": "neutral" },
+        { "total": 8, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-15",
+      "total": 18,
+      "split": [
+        { "total": 9, "split_value": "neutral" },
+        { "total": 9, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-16",
+      "total": 14,
+      "split": [
+        { "total": 6, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" }
+      ]
+    },
+    {
+      "date": "2021-03-17",
+      "total": 14,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-18",
+      "total": 16,
+      "split": [
+        { "total": 9, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-19",
+      "total": 16,
+      "split": [
+        { "total": 9, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-20",
+      "total": 14,
+      "split": [
+        { "total": 7, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-21",
+      "total": 13,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 5, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-22",
+      "total": 14,
+      "split": [
+        { "total": 7, "split_value": "negative" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-23",
+      "total": 14,
+      "split": [
+        { "total": 8, "split_value": "neutral" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-24",
+      "total": 14,
+      "split": [
+        { "total": 6, "split_value": "negative" },
+        { "total": 8, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-25",
+      "total": 17,
+      "split": [
+        { "total": 2, "split_value": "positive" },
+        { "total": 8, "split_value": "neutral" },
+        { "total": 7, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-26",
+      "total": 15,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 8, "split_value": "negative" },
+        { "total": 6, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-27",
+      "total": 10,
+      "split": [
+        { "total": 5, "split_value": "neutral" },
+        { "total": 5, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-28",
+      "total": 14,
+      "split": [
+        { "total": 5, "split_value": "negative" },
+        { "total": 2, "split_value": "positive" },
+        { "total": 7, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-29",
+      "total": 18,
+      "split": [
+        { "total": 1, "split_value": "positive" },
+        { "total": 11, "split_value": "neutral" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    },
+    {
+      "date": "2021-03-30",
+      "total": 10,
+      "split": [
+        { "total": 4, "split_value": "negative" },
+        { "total": 6, "split_value": "neutral" }
+      ]
+    },
+    {
+      "date": "2021-03-31",
+      "total": 16,
+      "split": [
+        { "total": 9, "split_value": "neutral" },
+        { "total": 1, "split_value": "positive" },
+        { "total": 6, "split_value": "negative" }
+      ]
+    }
+  ],
+  "metadata": {
+    "sources": [
+      {
+        "_id": "63bc33af22023f3fc7479ced",
+        "name": "Twitter datasets",
+        "date": "2023-02-13T07:40:58.050Z"
+      }
+    ]
+  }
+}
