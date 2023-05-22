@@ -75,6 +75,22 @@ const interventionsData = (max, mid, min) => {
   ];
 };
 
+function calculateSevenDayRollingAverage(data) {
+  const rollingAverages = [];
+  for (let i = 0; i < data.length; i++) {
+    if (i < 6) {
+      continue;
+    }
+    const window = data.slice(i - 6, i + 1);
+    const sum = window.reduce((total, value) => total + value[1], 0);
+    const average = sum / 7;
+
+    rollingAverages.push([data[i][0], parseFloat(average.toFixed(2))]);
+  }
+
+  return rollingAverages;
+}
+
 const formatAnalysisData = (data, analysisValue) => {
   return data.data.reduce((acc, entry) => {
     const { date, total, split: splitEntries } = entry;
@@ -93,7 +109,9 @@ const getMin = (data) =>
   Math.min(...data.flatMap((obj) => obj.data.map((point) => point[1])));
 
 const sentimentLineData = Object.keys(sentimentColors).map((sentiment) => ({
-  data: formatAnalysisData(sentimentData, sentiment),
+  data: calculateSevenDayRollingAverage(
+    formatAnalysisData(sentimentData, sentiment)
+  ),
   type: "spline",
   name: sentiment,
   color: sentimentColors[sentiment],
@@ -103,9 +121,10 @@ const sentMax = getMax(sentimentLineData);
 const sentMin = getMin(sentimentLineData);
 const sentMid = (sentMax - sentMin) / 2;
 
-console.log(formatAnalysisData(emotionData, "anger"));
 const emotionLineData = Object.keys(emotionColors).map((emotion) => ({
-  data: formatAnalysisData(emotionData, emotion),
+  data: calculateSevenDayRollingAverage(
+    formatAnalysisData(emotionData, emotion)
+  ),
   type: "spline",
   name: emotion,
   color: emotionColors[emotion],

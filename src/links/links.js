@@ -32,6 +32,7 @@ const links = [
   { url: "interventions-line.html", link: "interventions-line" },
   { url: "interventions-sma.html", link: "interventions-sma" },
   { url: "sma-graphs.html", link: "sma-graphs" },
+  { url: "sma-graphs-7-day-rolling.html", link: "sma-graphs-7-day-rolling" },
 ];
 const chartLinks = document.createElement("div");
 chartLinks.className = "links";
