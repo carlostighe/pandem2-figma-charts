@@ -18,6 +18,53 @@ const emotionColors = {
   joy: "#CC79A7",
 };
 
+const topics = [
+  {
+    name: "coronavirus",
+    _id: "63e615d022023f3fc7003726",
+  },
+  {
+    name: "pandemic",
+    _id: "63e6160b22023f3fc7026355",
+  },
+  {
+    name: "covid case",
+    _id: "63e6164222023f3fc704e4f2",
+  },
+  {
+    name: "vaccine",
+    _id: "63e6165822023f3fc705f14a",
+  },
+
+  {
+    name: "covid",
+    _id: "63e6170e22023f3fc70e5619",
+  },
+];
+
+const getNameById = (id) => {
+  const topic = topics.find((topic) => topic._id === id);
+  return topic ? topic.name : null;
+};
+
+function formatVolData(data) {
+  return data.data.reduce((result, entry) => {
+    const base = entry.total;
+    entry.split.forEach((splitEntry) => {
+      const { split_value, total } = splitEntry;
+      const splitVal = getNameById(split_value);
+      const existingEntry = result.find((obj) => obj.name === splitVal);
+      existingEntry
+        ? existingEntry.data.push((total / base) * 100)
+        : result.push({ name: splitVal, data: [total] });
+    });
+    return result;
+  }, []);
+}
+
+const dataForVolGraph = formatVolData(volumeData);
+console.log("dataForVolGraph ", dataForVolGraph);
+
 const interventionsData = (max, mid, min) => {
   return [
     {
@@ -127,7 +174,7 @@ Highcharts.setOptions({
   chart: {
     type: "xrange",
     width: 800,
-    height: 500,
+    height: 400,
   },
   legend: {
     layout: "horizontal",
@@ -172,12 +219,19 @@ var emotionChart = new Highcharts.Chart({
   series: emotionGraphData,
 });
 
-// var volChart = new Highcharts.Chart({
-//   title: {
-//     text: "Volume: coronavirus topic",
-//   },
-//   chart: {
-//     renderTo: "vol",
-//   },
-//   series: sentimentGraphData,
-// });
+var volChart = new Highcharts.Chart({
+  title: {
+    text: "Volume: coronavirus topic",
+  },
+  yAxis: {
+    endOnTick: false,
+    max: 25,
+  },
+  chart: {
+    type: "spline",
+    width: 1000,
+    height: 200,
+    renderTo: "vol",
+  },
+  series: dataForVolGraph,
+});
