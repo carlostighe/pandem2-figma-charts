@@ -1,103 +1,994 @@
 {
   "data": [
-    { "date": "2021-01-01", "total": 12, "split": [] },
-    { "date": "2021-01-02", "total": 9, "split": [] },
-    { "date": "2021-01-03", "total": 8, "split": [] },
-    { "date": "2021-01-04", "total": 10, "split": [] },
-    { "date": "2021-01-05", "total": 11, "split": [] },
-    { "date": "2021-01-06", "total": 10, "split": [] },
-    { "date": "2021-01-07", "total": 10, "split": [] },
-    { "date": "2021-01-08", "total": 10, "split": [] },
-    { "date": "2021-01-09", "total": 10, "split": [] },
-    { "date": "2021-01-10", "total": 10, "split": [] },
-    { "date": "2021-01-11", "total": 9, "split": [] },
-    { "date": "2021-01-12", "total": 10, "split": [] },
-    { "date": "2021-01-13", "total": 10, "split": [] },
-    { "date": "2021-01-14", "total": 11, "split": [] },
-    { "date": "2021-01-15", "total": 12, "split": [] },
-    { "date": "2021-01-16", "total": 11, "split": [] },
-    { "date": "2021-01-17", "total": 10, "split": [] },
-    { "date": "2021-01-18", "total": 11, "split": [] },
-    { "date": "2021-01-19", "total": 11, "split": [] },
-    { "date": "2021-01-20", "total": 11, "split": [] },
-    { "date": "2021-01-21", "total": 11, "split": [] },
-    { "date": "2021-01-22", "total": 12, "split": [] },
-    { "date": "2021-01-23", "total": 8, "split": [] },
-    { "date": "2021-01-24", "total": 8, "split": [] },
-    { "date": "2021-01-25", "total": 10, "split": [] },
-    { "date": "2021-01-26", "total": 10, "split": [] },
-    { "date": "2021-01-27", "total": 11, "split": [] },
-    { "date": "2021-01-28", "total": 11, "split": [] },
-    { "date": "2021-01-29", "total": 10, "split": [] },
-    { "date": "2021-01-30", "total": 12, "split": [] },
-    { "date": "2021-01-31", "total": 10, "split": [] },
-    { "date": "2021-02-01", "total": 11, "split": [] },
-    { "date": "2021-02-02", "total": 12, "split": [] },
-    { "date": "2021-02-03", "total": 10, "split": [] },
-    { "date": "2021-02-04", "total": 10, "split": [] },
-    { "date": "2021-02-05", "total": 10, "split": [] },
-    { "date": "2021-02-06", "total": 7, "split": [] },
-    { "date": "2021-02-07", "total": 10, "split": [] },
-    { "date": "2021-02-08", "total": 10, "split": [] },
-    { "date": "2021-02-09", "total": 12, "split": [] },
-    { "date": "2021-02-10", "total": 11, "split": [] },
-    { "date": "2021-02-11", "total": 10, "split": [] },
-    { "date": "2021-02-12", "total": 12, "split": [] },
-    { "date": "2021-02-13", "total": 9, "split": [] },
-    { "date": "2021-02-14", "total": 7, "split": [] },
-    { "date": "2021-02-15", "total": 11, "split": [] },
-    { "date": "2021-02-16", "total": 9, "split": [] },
-    { "date": "2021-02-17", "total": 12, "split": [] },
-    { "date": "2021-02-18", "total": 11, "split": [] },
-    { "date": "2021-02-19", "total": 10, "split": [] },
-    { "date": "2021-02-20", "total": 7, "split": [] },
-    { "date": "2021-02-21", "total": 7, "split": [] },
-    { "date": "2021-02-22", "total": 11, "split": [] },
-    { "date": "2021-02-23", "total": 10, "split": [] },
-    { "date": "2021-02-24", "total": 11, "split": [] },
-    { "date": "2021-02-25", "total": 10, "split": [] },
-    { "date": "2021-02-26", "total": 12, "split": [] },
-    { "date": "2021-02-27", "total": 9, "split": [] },
-    { "date": "2021-02-28", "total": 9, "split": [] },
-    { "date": "2021-03-01", "total": 12, "split": [] },
-    { "date": "2021-03-02", "total": 11, "split": [] },
-    { "date": "2021-03-03", "total": 10, "split": [] },
-    { "date": "2021-03-04", "total": 10, "split": [] },
-    { "date": "2021-03-05", "total": 9, "split": [] },
-    { "date": "2021-03-06", "total": 9, "split": [] },
-    { "date": "2021-03-07", "total": 9, "split": [] },
-    { "date": "2021-03-08", "total": 12, "split": [] },
-    { "date": "2021-03-09", "total": 9, "split": [] },
-    { "date": "2021-03-10", "total": 10, "split": [] },
-    { "date": "2021-03-11", "total": 11, "split": [] },
-    { "date": "2021-03-12", "total": 10, "split": [] },
-    { "date": "2021-03-13", "total": 11, "split": [] },
-    { "date": "2021-03-14", "total": 10, "split": [] },
-    { "date": "2021-03-15", "total": 10, "split": [] },
-    { "date": "2021-03-16", "total": 10, "split": [] },
-    { "date": "2021-03-17", "total": 12, "split": [] },
-    { "date": "2021-03-18", "total": 11, "split": [] },
-    { "date": "2021-03-19", "total": 10, "split": [] },
-    { "date": "2021-03-20", "total": 9, "split": [] },
-    { "date": "2021-03-21", "total": 8, "split": [] },
-    { "date": "2021-03-22", "total": 10, "split": [] },
-    { "date": "2021-03-23", "total": 10, "split": [] },
-    { "date": "2021-03-24", "total": 9, "split": [] },
-    { "date": "2021-03-25", "total": 10, "split": [] },
-    { "date": "2021-03-26", "total": 11, "split": [] },
-    { "date": "2021-03-27", "total": 8, "split": [] },
-    { "date": "2021-03-28", "total": 10, "split": [] },
-    { "date": "2021-03-29", "total": 11, "split": [] },
-    { "date": "2021-03-30", "total": 8, "split": [] },
-    { "date": "2021-03-31", "total": 12, "split": [] }
-  ],
-  "metadata": {
-    "sources": [
-      {
-        "_id": "63bc33af22023f3fc7479ced",
-        "name": "Twitter datasets",
-        "date": "2023-02-13T07:40:58.050Z"
-      }
-    ]
-  }
+    {
+      "date": "2021-01-01",
+      "total": 78,
+      "split": [
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-01-02",
+      "total": 74,
+      "split": [
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-01-03",
+      "total": 79,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 8, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-01-04",
+      "total": 88,
+      "split": [
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-05",
+      "total": 90,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-06",
+      "total": 82,
+      "split": [
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-01-07",
+      "total": 84,
+      "split": [
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-01-08",
+      "total": 85,
+      "split": [
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-09",
+      "total": 71,
+      "split": [
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-10",
+      "total": 76,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 2, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-01-11",
+      "total": 87,
+      "split": [
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-12",
+      "total": 88,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-13",
+      "total": 84,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-14",
+      "total": 86,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-01-15",
+      "total": 86,
+      "split": [
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-16",
+      "total": 76,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-01-17",
+      "total": 78,
+      "split": [
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-01-18",
+      "total": 81,
+      "split": [
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-19",
+      "total": 86,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-01-20",
+      "total": 88,
+      "split": [
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-01-21",
+      "total": 87,
+      "split": [
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 7, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-01-22",
+      "total": 90,
+      "split": [
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-23",
+      "total": 74,
+      "split": [
+        { "total": 8, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-01-24",
+      "total": 69,
+      "split": [
+        { "total": 8, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 8, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-25",
+      "total": 79,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-01-26",
+      "total": 81,
+      "split": [
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-01-27",
+      "total": 84,
+      "split": [
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-01-28",
+      "total": 87,
+      "split": [
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 9, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-01-29",
+      "total": 79,
+      "split": [
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-01-30",
+      "total": 78,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-01-31",
+      "total": 73,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-02-01",
+      "total": 84,
+      "split": [
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 9, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-02-02",
+      "total": 89,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-03",
+      "total": 73,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-02-04",
+      "total": 89,
+      "split": [
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-05",
+      "total": 83,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-02-06",
+      "total": 64,
+      "split": [
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 7, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-07",
+      "total": 69,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-02-08",
+      "total": 75,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-02-09",
+      "total": 86,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-02-10",
+      "total": 79,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 7, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 9, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-02-11",
+      "total": 81,
+      "split": [
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-02-12",
+      "total": 79,
+      "split": [
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "total": 63,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 8, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-02-14",
+      "total": 54,
+      "split": [
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 7, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-02-15",
+      "total": 77,
+      "split": [
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-02-16",
+      "total": 73,
+      "split": [
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-02-17",
+      "total": 85,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 7, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-02-18",
+      "total": 72,
+      "split": [
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-02-19",
+      "total": 74,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-02-20",
+      "total": 60,
+      "split": [
+        { "total": 7, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-02-21",
+      "total": 69,
+      "split": [
+        { "total": 7, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-22",
+      "total": 72,
+      "split": [
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-02-23",
+      "total": 71,
+      "split": [
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-24",
+      "total": 73,
+      "split": [
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-02-25",
+      "total": 65,
+      "split": [
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-02-26",
+      "total": 77,
+      "split": [
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-27",
+      "total": 61,
+      "split": [
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 2, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-02-28",
+      "total": 56,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-01",
+      "total": 76,
+      "split": [
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-02",
+      "total": 84,
+      "split": [
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-03-03",
+      "total": 81,
+      "split": [
+        { "total": 9, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 7, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-04",
+      "total": 72,
+      "split": [
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-05",
+      "total": 80,
+      "split": [
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-03-06",
+      "total": 62,
+      "split": [
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 2, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-07",
+      "total": 61,
+      "split": [
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-03-08",
+      "total": 79,
+      "split": [
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-09",
+      "total": 69,
+      "split": [
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-10",
+      "total": 77,
+      "split": [
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-03-11",
+      "total": 77,
+      "split": [
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-03-12",
+      "total": 79,
+      "split": [
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-03-13",
+      "total": 72,
+      "split": [
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-03-14",
+      "total": 63,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-03-15",
+      "total": 66,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-03-16",
+      "total": 71,
+      "split": [
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-03-17",
+      "total": 76,
+      "split": [
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" }
+      ]
+    },
+    {
+      "date": "2021-03-18",
+      "total": 82,
+      "split": [
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 9, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-19",
+      "total": 72,
+      "split": [
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-20",
+      "total": 70,
+      "split": [
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-21",
+      "total": 64,
+      "split": [
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-22",
+      "total": 83,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-23",
+      "total": 78,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 6, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-24",
+      "total": 80,
+      "split": [
+        { "total": 9, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 9, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-03-25",
+      "total": 79,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    },
+    {
+      "date": "2021-03-26",
+      "total": 81,
+      "split": [
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-27",
+      "total": 57,
+      "split": [
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 4, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-03-28",
+      "total": 58,
+      "split": [
+        { "total": 2, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 10, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 10, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 10, "split_value": "63e615d022023f3fc7003726" }
+      ]
+    },
+    {
+      "date": "2021-03-29",
+      "total": 73,
+      "split": [
+        { "total": 7, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 11, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 3, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 12, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" }
+      ]
+    },
+    {
+      "date": "2021-03-30",
+      "total": 77,
+      "split": [
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 8, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 5, "split_value": "63e6160b22023f3fc7026355" },
+        { "total": 13, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 8, "split_value": "63e6164222023f3fc704e4f2" }
+      ]
+    },
+    {
+      "date": "2021-03-31",
+      "total": 73,
+      "split": [
+        { "total": 12, "split_value": "63e615d022023f3fc7003726" },
+        { "total": 11, "split_value": "63e6165822023f3fc705f14a" },
+        { "total": 11, "split_value": "63e6170e22023f3fc70e5619" },
+        { "total": 5, "split_value": "63e6164222023f3fc704e4f2" },
+        { "total": 6, "split_value": "63e6160b22023f3fc7026355" }
+      ]
+    }
+  ]
 }
