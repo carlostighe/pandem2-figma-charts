@@ -41,7 +41,6 @@ const topics = [
     _id: "63e6170e22023f3fc70e5619",
   },
 ];
-
 const getNameById = (id) => {
   const topic = topics.find((topic) => topic._id === id);
   return topic ? topic.name : null;
@@ -63,59 +62,92 @@ function formatVolData(data) {
 }
 
 const dataForVolGraph = formatVolData(volumeData);
-console.log("dataForVolGraph ", dataForVolGraph);
 
-const interventionsData = (max, mid, min) => {
+const interventionsData = (graphPos1, graphPos2, graphPos3) => {
   return [
     {
       name: "mask wearing",
       type: "xrange",
-      pointWidth: 10,
+      pointWidth: 15,
       data: [
         {
-          color: `hsl(42, 11%, 80%)`,
+          color: `hsla(201,97%,14%, 0.5)`,
           x: Date.parse("2021-01-01"),
           x2: Date.parse("2021-03-29"),
-          y: max + max / 10,
+          y: graphPos1,
+          dataLabels: {
+            enabled: true,
+            inside: true,
+            formatter: function () {
+              return this.series.name;
+            },
+          },
         },
       ],
     },
     {
       name: "Social Distancing",
       type: "xrange",
-      pointWidth: 10,
-
+      pointWidth: 15,
       data: [
         {
-          color: `hsl(222, 11%, 70%)`,
+          color: `hsla(201, 97%, 21%, 0.5)`,
           x: Date.parse("2021-01-01"),
           x2: Date.parse("2021-02-05"),
-          y: mid + max / 10,
+          y: graphPos2,
+          dataLabels: {
+            enabled: true,
+            inside: true,
+            formatter: function () {
+              return this.series.name;
+            },
+          },
         },
         {
-          color: `hsl(222, 11%, 70%)`,
+          color: `hsla(201, 97%,21%, 0.5)`,
           x: Date.parse("2021-03-01"),
           x2: Date.parse("2021-03-31"),
-          y: mid + max / 10,
+          y: graphPos2,
+          dataLabels: {
+            enabled: true,
+            inside: true,
+            formatter: function () {
+              return this.series.name;
+            },
+          },
         },
       ],
     },
     {
       name: "Testing",
       type: "xrange",
-      pointWidth: 10,
+      pointWidth: 15,
       data: [
         {
-          color: `hsl(180, 15%, 70%)`,
+          color: `hsla(201, 40%,28%, 0.5)`,
           x: Date.parse("2021-01-05"),
           x2: Date.parse("2021-01-19"),
-          y: min + max / 10,
+          y: graphPos3,
+          dataLabels: {
+            enabled: true,
+            inside: true,
+            formatter: function () {
+              return this.series.name;
+            },
+          },
         },
         {
-          color: `hsl(180, 15%, 70%)`,
+          color: `hsla(201, 40%,28%, 0.5)`,
           x: Date.parse("2021-02-01"),
           x2: Date.parse("2021-02-23"),
-          y: min + max / 10,
+          y: graphPos3,
+          dataLabels: {
+            enabled: true,
+            inside: true,
+            formatter: function () {
+              return this.series.name;
+            },
+          },
         },
       ],
     },
@@ -133,12 +165,6 @@ const formatAnalysisData = (data, analysisValue) => {
   }, []);
 };
 
-const getMax = (data) =>
-  Math.max(...data.flatMap((obj) => obj.data.map((point) => point[1])));
-
-const getMin = (data) =>
-  Math.min(...data.flatMap((obj) => obj.data.map((point) => point[1])));
-
 const sentimentLineData = Object.keys(sentimentColors).map((sentiment) => ({
   data: formatAnalysisData(sentimentData, sentiment),
   type: "spline",
@@ -146,11 +172,6 @@ const sentimentLineData = Object.keys(sentimentColors).map((sentiment) => ({
   color: sentimentColors[sentiment],
 }));
 
-const sentMax = getMax(sentimentLineData);
-const sentMin = getMin(sentimentLineData);
-const sentMid = (sentMax - sentMin) / 2;
-
-console.log(formatAnalysisData(emotionData, "anger"));
 const emotionLineData = Object.keys(emotionColors).map((emotion) => ({
   data: formatAnalysisData(emotionData, emotion),
   type: "spline",
@@ -158,23 +179,30 @@ const emotionLineData = Object.keys(emotionColors).map((emotion) => ({
   color: emotionColors[emotion],
 }));
 
+// get top value so we can put interventions at the top of the chart
+const getMax = (data) =>
+  Math.max(...data.flatMap((obj) => obj.data.map((point) => point[1])));
+const sentMax = getMax(sentimentLineData);
 const emoMax = getMax(emotionLineData);
-const emoMin = getMin(emotionLineData);
-const emoMid = (emoMax - emoMin) / 2;
 
-const sentimentGraphData = interventionsData(sentMax, sentMid, sentMin).concat(
-  sentimentLineData
-);
+const sentimentGraphData = interventionsData(
+  sentMax + sentMax / 3,
+  sentMax + sentMax / 6,
+  sentMax
+).concat(sentimentLineData);
 
-const emotionGraphData = interventionsData(emoMax, emoMid, emoMin).concat(
-  emotionLineData
-);
+const emotionGraphData = interventionsData(
+  emoMax + emoMax / 3,
+  emoMax + emoMax / 6,
+  emoMax
+).concat(emotionLineData);
 
 Highcharts.setOptions({
   chart: {
     type: "xrange",
     width: 800,
     height: 400,
+    spacingTop: 0,
   },
   legend: {
     layout: "horizontal",
@@ -190,6 +218,7 @@ Highcharts.setOptions({
       },
     },
   },
+
   plotOptions: {
     series: {
       marker: {
@@ -206,6 +235,10 @@ var sentimentChart = new Highcharts.Chart({
   chart: {
     renderTo: "sentiment",
   },
+  yAxis: {
+    endOnTick: false,
+    max: sentMax + 5,
+  },
   series: sentimentGraphData,
 });
 
@@ -215,6 +248,10 @@ var emotionChart = new Highcharts.Chart({
   },
   chart: {
     renderTo: "emotion",
+  },
+  yAxis: {
+    endOnTick: false,
+    max: emoMax + 5,
   },
   series: emotionGraphData,
 });
